@@ -1,7 +1,37 @@
 
+from ..constants import POS, Wordform
+
 class Module(object):
     def __init__(self) -> None:
         super().__init__()
+
+    def run(self, pos: str, wordform: str, term: str, *args, **kwargs) -> str:
+        if pos == POS.N:
+            if wordform == Wordform.SING:
+                return self.noun_to_singular(term, *args, **kwargs)
+            elif wordform == Wordform.PLUR:
+                return self.noun_to_plural(term, *args, **kwargs)
+        
+        elif pos == POS.V:
+            if wordform == Wordform.SING:
+                return self.verb_to_singular(term, *args, **kwargs)
+            elif wordform == Wordform.PLUR:
+                return self.verb_to_plural(term, *args, **kwargs)
+            elif wordform == Wordform.PAST:
+                return self.verb_to_past(term, *args, **kwargs)
+            elif wordform == Wordform.PAST_PART:
+                return self.verb_to_plural(term, *args, **kwargs)
+            elif wordform == Wordform.PRES_PART:
+                return self.verb_to_plural(term, *args, **kwargs)
+        
+        elif pos == POS.A:
+            if wordform == Wordform.SING:
+                return self.adj_to_singular(term, *args, **kwargs)
+            elif wordform == Wordform.PLUR:
+                return self.adj_to_plural(term, *args, **kwargs)
+
+    def get_name(self) -> str:
+        return self.__class__.__name__
 
     # START OF NOUN
     # Conversions

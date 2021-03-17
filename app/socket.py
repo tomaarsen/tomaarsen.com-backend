@@ -15,6 +15,9 @@ import time
 
 from flask_socketio import Namespace, emit
 
+from .db import db
+
+"""
 # Initialize MongoDB database
 client = pymongo.MongoClient("localhost:27017")
 db = client["AGID"]
@@ -87,6 +90,7 @@ def get_module_names(pos, wordform, show_competitors):
     if "Inflexion" in module_names:
         return ["Inflexion"]
     return []
+"""
 
 class InflexionNamespace(Namespace):
     def on_connect(self):
@@ -105,7 +109,7 @@ class InflexionNamespace(Namespace):
             ("v", "past_part")
         ]
         pos, wordform = random.choice(conversions)
-        emit_modules({**json, **{
+        self.on_input_modules({**json, **{
             "pos": pos,
             "wordform": wordform
         }})
@@ -123,7 +127,7 @@ class InflexionNamespace(Namespace):
             "wordform": wordform,
             "word": word
         })
-        emit_output({**json, **{
+        self.on_input({**json, **{
             "pos": pos,
             "wordform": wordform,
             "word": word
