@@ -1,1 +1,15 @@
 flask==1.1.2
+flask-socketio==5.0.1
+eventlet
+
+pymongo
+
+inflect
+inflection
+Inflector
+git+https://github.com/CubieDev/Inflexion
+lemminflect
+pyinflect
+textblob
+pattern
+nltk
