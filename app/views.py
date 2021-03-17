@@ -2,20 +2,6 @@ from collections import defaultdict
 from sys import breakpointhook
 from flask import Flask, request, render_template, send_from_directory, url_for, render_template, redirect
 from flask_socketio import SocketIO, emit
-from modules import (Inflect,
-                     Inflection,
-                     Inflector,
-                     Inflexion,
-                     LemmInflect,
-                     NLTK,
-                     Pattern,
-                     PyInflect,
-                     TextBlob,
-                     Module
-                     )
-import pymongo
-import random
-import time
 
 app = Flask(__name__, static_url_path='/static')
 socketio = SocketIO(app, cors_allowed_origins="http://127.0.0.1:5000")

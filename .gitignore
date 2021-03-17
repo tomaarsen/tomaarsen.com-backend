@@ -125,7 +125,4 @@ dmypy.json
 .pyre/
 
 # Custom
-backup
 .vscode
-# File with some color schemes
-colors.txt
