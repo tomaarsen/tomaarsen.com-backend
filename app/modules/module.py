@@ -18,11 +18,11 @@ class Module(object):
             elif wordform == Wordform.PLUR:
                 return self.verb_to_plural(term, *args, **kwargs)
             elif wordform == Wordform.PAST:
-                return self.verb_to_past(term, *args, **kwargs)
+                return self.verb_to_pret(term, *args, **kwargs)
             elif wordform == Wordform.PAST_PART:
-                return self.verb_to_plural(term, *args, **kwargs)
+                return self.verb_to_past_part(term, *args, **kwargs)
             elif wordform == Wordform.PRES_PART:
-                return self.verb_to_plural(term, *args, **kwargs)
+                return self.verb_to_pres_part(term, *args, **kwargs)
         
         elif pos == POS.A:
             if wordform == Wordform.SING:
@@ -30,8 +30,9 @@ class Module(object):
             elif wordform == Wordform.PLUR:
                 return self.adj_to_plural(term, *args, **kwargs)
 
-    def get_name(self) -> str:
-        return self.__class__.__name__
+    @classmethod
+    def get_name(cls) -> str:
+        return cls.__name__
 
     # START OF NOUN
     # Conversions

@@ -15,118 +15,40 @@ import time
 
 from flask_socketio import Namespace, emit
 
-from .db import db
-
-"""
-# Initialize MongoDB database
-client = pymongo.MongoClient("localhost:27017")
-db = client["AGID"]
-
-POS = ["v", "n", "a"]
-WORDFORMS = ['sing', 'plur', 'past', 'past_part', 'pres_part']
-
-pos_wordform_to_method = {
-    "v":
-    {
-        "sing": lambda mod: mod.verb_to_singular,
-        "plur": lambda mod: mod.verb_to_plural,
-        "past": lambda mod: mod.verb_to_pret,
-        "past_part": lambda mod: mod.verb_to_past_part,
-        "pres_part": lambda mod: mod.verb_to_pres_part
-    },
-    "n":
-    {
-        "sing": lambda mod: mod.noun_to_singular,
-        "plur": lambda mod: mod.noun_to_plural,
-    },
-    "a":
-    {
-        "sing": lambda mod: mod.adj_to_singular,
-        "plur": lambda mod: mod.adj_to_plural,
-    },
-}
-
-module_name_to_module = {
-    "Inflexion": Inflexion,
-
-    "inflect": Inflect,
-    "Inflection": Inflection,
-    "Inflector": Inflector,
-    "LemmInflect": LemmInflect,
-    "NLTK": NLTK,
-    "Pattern": Pattern,
-    "PyInflect": PyInflect,
-    "TextBlob": TextBlob,
-}
-
-pos_wordform_to_modules = {}
-for pos in POS:
-    pos_wordform_to_modules[pos] = {}
-    for wordform in WORDFORMS:
-        # Check if this pos/wordform combination is legal
-        try:
-            method_lambda = pos_wordform_to_method[pos][wordform]
-        except KeyError:
-            continue
-
-        pos_wordform_to_modules[pos][wordform] = []
-        for modulename, module in module_name_to_module.items():
-            # Get the method, and run it with an empty string, and detect if there is a NotImplementedError
-            try:
-                method = method_lambda(module())
-                method("")
-            except NotImplementedError:
-                continue
-            except Exception as e:
-                pass
-            # If we reach here, then there is no NotImplementedError (but perhaps another error).
-            pos_wordform_to_modules[pos][wordform].append(modulename)
-
-
-def get_module_names(pos, wordform, show_competitors):
-    module_names = pos_wordform_to_modules[pos][wordform]
-    if show_competitors:
-        return module_names
-    if "Inflexion" in module_names:
-        return ["Inflexion"]
-    return []
-"""
+from .db import db, get_known_corrects, get_random_word
+from .models import get_random_conversion, get_supported_modules
 
 class InflexionNamespace(Namespace):
+
     def on_connect(self):
+        # TODO: Replace this with logging
         emit('after connect', {'data': 'Lets dance'})
 
     def on_random(self, json):
-        # show_competitors = json["show_competitors"]
+        """
+        Called whenever Client wants a random word, wordform and POS, 
+        and then get the output for that.
+        """
+        # Get a random conversion
+        pos, wordform = get_random_conversion()
 
-        conversions = [
-            ("n", "sing"),
-            ("n", "plur"),
-            ("v", "sing"),
-            ("v", "plur"),
-            ("v", "past"),
-            ("v", "pres_part"),
-            ("v", "past_part")
-        ]
-        pos, wordform = random.choice(conversions)
+        # Emit the list of modules that support the randomly chosen conversion
         self.on_input_modules({**json, **{
             "pos": pos,
             "wordform": wordform
         }})
-        # TODO: Ensure that the Database cannot be empty.
-        try:
-            word_entry = db[f"{pos.upper()}_to_word"].aggregate(
-                [{"$sample": {"size": 1}}]).next()
-        except StopIteration:
-            return
-        word = random.choice(list(word_entry.values()))
-        if isinstance(word, list):
-            word = word[0]
+        
+        # Get a random word
+        word = get_random_word(pos)
+
+        # Emit the randomly generated data to the Client
         emit("conversion", {
             "pos": pos,
             "wordform": wordform,
             "word": word
         })
+
+        # Send output for this conversion to Client
         self.on_input({**json, **{
             "pos": pos,
             "wordform": wordform,
@@ -134,57 +56,44 @@ class InflexionNamespace(Namespace):
         }})
 
     def on_input(self, json):
-        print("Input", json)
+        """
+        Called whenever Client wants to get the output of the currently visible
+        modules, with the given input
+        """
+        # Get request parameters
         pos = json["pos"]
         wordform = json["wordform"]
         word = json["word"]
         show_competitors = json["show_competitors"]
 
-        # If known, get known correct output
-        # First get lemma of the given word
-        if pos != "a":
-            lemma_entry = db[f"{pos.upper()}_to_lemma"].find_one({"_id": word})
-            if lemma_entry:
-                lemma = lemma_entry["lemma"]
+        # Optionally emit list of known correct outputs
+        correct_list = get_known_corrects(pos, wordform, word)
+        if correct_list:
+            emit("correct", {
+                "output": correct_list
+            })
 
-                # Check if we are converting to the lemma
-                if (pos == "v" and wordform == "plur") or \
-                    (pos == "n" and wordform == "sing") or \
-                        (pos == "a" and wordform == "plur"):
-                    emit("correct", {
-                        "output": [lemma]
-                    })
-                else:
-                    # Otherwise use the to_word database to potentially find a word
-                    # in the desired wordform
-                    word_entry = db[f"{pos.upper()}_to_word"].find_one({
-                        "_id": lemma})
-                    if wordform in word_entry:
-                        correct_words = list(word_entry[wordform])
-                    elif wordform == "past_part" and "past" in word_entry:
-                        correct_words = list(word_entry["past"])
-                    else:
-                        breakpoint()
-                    emit("correct", {
-                        "output": correct_words
-                    })
-
-        module_names = get_module_names(pos, wordform, show_competitors)
-        for module_name in module_names:
-            module = module_name_to_module[module_name]()
-            method = pos_wordform_to_method[pos][wordform](module)
-            output = method(word)
+        # Emit the output of each module that supports the desired conversion
+        modules = get_supported_modules(pos, wordform, show_competitors)
+        for module in modules:
+            output = module().run(pos, wordform, word)
             emit("output", {
-                "module": module_name,
+                "module": module.get_name(),
                 "output": output
             })
 
     def on_input_modules(self, json):
-        print("Input_modules", json)
+        """
+        Called whenever Client updates POS or Wordform, and we want to update
+        which modules they are shown
+        """
+        # Get request parameters
         pos = json["pos"]
         wordform = json["wordform"]
         show_competitors = json["show_competitors"]
-        module_names = get_module_names(pos, wordform, show_competitors)
+
+        # Emit the list of modules that support the desired conversion
+        modules = get_supported_modules(pos, wordform, show_competitors)
         emit("output_modules", {
-            "modules": module_names
+            "modules": [module.get_name() for module in modules]
         })

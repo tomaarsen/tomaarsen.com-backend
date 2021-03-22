@@ -2,25 +2,14 @@ from flask import (
     Blueprint, flash, g, redirect, render_template, request, session, url_for
 )
 
+from .models import MODULE_NAMES
+
 bp = Blueprint('inflexion', __name__, url_prefix='/inflexion',
                static_folder="static")
 
-module_name_to_module = [
-    "Inflexion",
-    "inflect",
-    "Inflection",
-    "Inflector",
-    "LemmInflect",
-    "NLTK",
-    "Pattern",
-    "PyInflect",
-    "TextBlob",
-]
-
-
 @bp.route('/')
 def index():
-    return render_template('index.html', modules=module_name_to_module)
+    return render_template('index.html', modules=MODULE_NAMES)
 
 
 @bp.route("/<path>")

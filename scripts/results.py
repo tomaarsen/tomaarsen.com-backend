@@ -3,7 +3,7 @@ import pandas as pd
 import json
 from pprint import pprint
 
-with open("results.json", "r") as f:
+with open("Scripts/results.json", "r") as f:
     out = json.load(f)
 
 
@@ -40,5 +40,3 @@ nplur = pd.DataFrame(noun_results["plur"])
 nsing = pd.DataFrame(noun_results["sing"])
 
 breakpoint()
-
-pd.DataFrame()
