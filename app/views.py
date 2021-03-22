@@ -9,7 +9,7 @@ bp = Blueprint('inflexion', __name__, url_prefix='/inflexion',
 
 @bp.route('/')
 def index():
-    return render_template('index.html', modules=MODULE_NAMES)
+    return render_template('inflexion.html', modules=MODULE_NAMES)
 
 
 @bp.route("/<path>")
