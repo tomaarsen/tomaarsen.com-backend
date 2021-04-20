@@ -1,14 +1,14 @@
 
-from modules import (Inflect,
-                     Inflection,
-                     Inflector,
-                     Inflexion,
-                     LemmInflect,
-                     NLTK,
-                     Pattern,
-                     PyInflect,
-                     TextBlob,
-                     )
+from app.modules import (Inflect,
+                         Inflection,
+                         Inflector,
+                         Inflex,
+                         LemmInflect,
+                         NLTK,
+                         Pattern,
+                         PyInflect,
+                         TextBlob,
+                         )
 import pymongo
 from pprint import pprint
 import json
@@ -19,7 +19,7 @@ db = client["AGID"]
 id_to_lemma = {
     "V": "plur",
     "N": "sing",
-    "A": "plur", # ?
+    "A": "plur",  # ?
 }
 
 pos_wordform_to_method = {
@@ -40,11 +40,13 @@ pos_wordform_to_method = {
     {
         "sing": lambda mod: mod.adj_to_singular,
         "plur": lambda mod: mod.adj_to_plural,
+        "comp": lambda mod: mod.adj_to_comparative,
+        "super": lambda mod: mod.adj_to_superlative,
     },
 }
 
 modules = [
-    Inflexion(),
+    Inflex(),
     Inflect(),
     Inflection(),
     Inflector(),
@@ -56,7 +58,7 @@ modules = [
 ]
 
 results = {}
-for pos in ["V", "N"]:
+for pos in ["V", "N", "A"]:
     print("Starting with ", pos)
     results[pos] = {}
     cursor = db[f"{pos}_to_word"].find({})
@@ -80,20 +82,32 @@ for pos in ["V", "N"]:
                         for from_word in from_words:
                             output = method(from_word)
                             if module.__class__.__name__ not in results[pos][to_wordform][from_wordform]:
-                                results[pos][to_wordform][from_wordform][module.__class__.__name__] = {"correct": 0, "incorrect": 0}
+                                results[pos][to_wordform][from_wordform][module.__class__.__name__] = {
+                                    "correct": 0, "incorrect": 0}
                             if output in to_words:
                                 results[pos][to_wordform][from_wordform][module.__class__.__name__]["correct"] += 1
                             else:
                                 results[pos][to_wordform][from_wordform][module.__class__.__name__]["incorrect"] += 1
                     except NotImplementedError:
                         pass
-        
+
         pct = i / total * 100
         if round(pct) > last_percentage:
             print(f"{pct:.2f}%")
             last_percentage = round(pct)
 
+if "V" in results:
+    results["v"] = results["V"]
+    del results["V"]
+if "N" in results:
+    results["n"] = results["N"]
+    del results["N"]
+if "A" in results:
+    del results["A"]["plur"]
+    results["a"] = results["A"]
+    del results["A"]
+
 breakpoint()
-with open("results.json") as f:
+with open("results_3.json", "w") as f:
     json.dump(results, f)
 breakpoint()

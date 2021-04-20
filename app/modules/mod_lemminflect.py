@@ -6,6 +6,8 @@ from .module import Module
 from lemminflect import getInflection, getLemma
 
 # https://github.com/bjascob/LemmInflect
+
+
 class LemmInflect(Module):
 
     # START OF NOUN
@@ -77,4 +79,11 @@ class LemmInflect(Module):
 
     def adj_is_plural(self, term: str, *args, **kwargs) -> bool:
         raise NotImplementedError()
+
+    def adj_to_comparative(self, term: str, *args, **kwargs) -> str:
+        # TODO: Perhaps lemmatize to Adjective first.
+        return getInflection(getLemma(term, upos="ADJ")[0], tag="JJR")[0]
+
+    def adj_to_superlative(self, term: str, *args, **kwargs) -> str:
+        return getInflection(getLemma(term, upos="ADJ")[0], tag="JJS")[0]
     # END OF ADJECTIVE

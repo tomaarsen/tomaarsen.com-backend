@@ -56448,7 +56448,7 @@ inflectionless N?: inflectionless
 inflector N?: inflectors
 inflexibility N: inflexibilities
 inflexibleness N: inflexiblenesses
-inflexion N: inflexions
+inflex N: inflexs
 inflexure N?: inflexures
 inflict V: inflicted | inflicting | inflicts
 inflicter N?: inflicters

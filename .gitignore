@@ -126,3 +126,6 @@ dmypy.json
 
 # Custom
 .vscode
+backup
+# Folder with code to gather CELEX performance
+celex

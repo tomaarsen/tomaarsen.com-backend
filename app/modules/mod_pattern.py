@@ -4,11 +4,13 @@ __all__ = [
 ]
 from .module import Module
 
-from pattern.en import pluralize, singularize, conjugate
+from pattern.en import pluralize, singularize, conjugate, comparative, superlative
 
 # https://github.com/clips/pattern
+
+
 class Pattern(Module):
-    
+
     # START OF NOUN
     # Conversions
     def noun_to_singular(self, term: str, *args, **kwargs) -> str:
@@ -80,4 +82,10 @@ class Pattern(Module):
 
     def adj_is_plural(self, term: str, *args, **kwargs) -> bool:
         raise NotImplementedError()
+
+    def adj_to_comparative(self, term: str, *args, **kwargs) -> str:
+        return comparative(term)
+
+    def adj_to_superlative(self, term: str, *args, **kwargs) -> str:
+        return superlative(term)
     # END OF ADJECTIVE

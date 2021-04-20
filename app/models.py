@@ -1,9 +1,10 @@
 
 from collections import defaultdict
 import random
+import json
 from typing import List, Tuple
 from .modules import (
-    Inflexion,
+    Inflex,
 
     Inflect,
     Inflection,
@@ -19,7 +20,7 @@ from .modules import (
 from .constants import CONVERSIONS, POS, Wordform
 
 MODULES = [
-    Inflexion,
+    Inflex,
 
     Inflect,
     Inflection,
@@ -36,7 +37,7 @@ MODULE_NAMES = [module().get_name() for module in MODULES]
 SUPPORTED_WORDFORMS = {
     POS.N: [Wordform.SING, Wordform.PLUR],
     POS.V: [Wordform.SING, Wordform.PLUR, Wordform.PAST, Wordform.PAST_PART, Wordform.PRES_PART],
-    POS.A: [Wordform.SING, Wordform.PLUR],
+    POS.A: [Wordform.SING, Wordform.PLUR, Wordform.COMP, Wordform.SUPER],
 }
 
 SUPPORTED_MODULES = defaultdict(lambda: defaultdict(list))
@@ -73,43 +74,31 @@ def is_lemma_form(pos: str, wordform: str) -> bool:
 def get_supported_modules(pos: str, wordform: str, show_competitors: bool) -> List[Module]:
     """
     Return the list of classes which support the conversion to `wordform` for the given `pos`.
-    If `show_competitors` is False, the list can only contain Inflexion.
+    If `show_competitors` is False, the list can only contain Inflex.
     """
     module_classes = SUPPORTED_MODULES[pos][wordform]
-    return [module for module in module_classes 
-            if show_competitors or module == Inflexion]
+    return [module for module in module_classes
+            if show_competitors or module == Inflex]
 
 
-"""
-_pos_wordform_to_method = {
-    POS.V:
-    {
-        Wordform.SING: lambda mod: mod.verb_to_singular,
-        Wordform.PLUR: lambda mod: mod.verb_to_plural,
-        "past": lambda mod: mod.verb_to_pret,
-        "past_part": lambda mod: mod.verb_to_past_part,
-        "pres_part": lambda mod: mod.verb_to_pres_part
-    },
-    POS.N:
-    {
-        Wordform.SING: lambda mod: mod.noun_to_singular,
-        Wordform.PLUR: lambda mod: mod.noun_to_plural,
-    },
-    "a":
-    {
-        Wordform.SING: lambda mod: mod.adj_to_singular,
-        Wordform.PLUR: lambda mod: mod.adj_to_plural,
-    },
-}
-
-def get_method(pos: str, wordform: str):
-    return _pos_wordform_to_method[pos][wordform]
-
-def get_module_names(pos: str, wordform: str, show_competitors: bool):
-    module_names = pos_wordform_to_modules[pos][wordform]
-    if show_competitors:
-        return module_names
-    if "Inflexion" in module_names:
-        return ["Inflexion"]
-    return []
-"""
+def get_performance(pos: str, wordform: str, source: str):
+    """
+    Given a `pos` and `wordform`, return the list of modules that support the corresponding conversion,
+    also return a dictionary mapping wordforms to a list of accuracies. Each accuracy score corresponds
+    to a module in the list of modules
+    """
+    sources = {
+        "celex": "app/static/data/celex_performance.json",
+        "celex_word": "app/static/data/celex_word_performance.json",
+        "celex_collocation": "app/static/data/celex_collocation_performance.json",
+        "agid": "app/static/data/agid_performance.json",
+    }
+    with open(sources[source], "r") as f:
+        data = json.load(f)
+        performance_dict = data[pos][wordform]
+        module_names = list(next(data.keys() for data in performance_dict.values()))
+        n_terms = sum(performance_dict[list(performance_dict.keys())[0]][module_names[0]].values())
+        return module_names, {
+            key: [performance_dict[key][module]["correct"] * 100 / (performance_dict[key][module]["correct"] + performance_dict[key][module]["incorrect"]) for module in module_names]
+            for key in performance_dict
+        }, n_terms

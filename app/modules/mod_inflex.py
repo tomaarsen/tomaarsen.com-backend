@@ -1,17 +1,19 @@
 
+from inflex import Noun, Verb, Adjective
 __all__ = [
-    "Inflexion"
+    "Inflex"
 ]
 import os
 import sys
 from .module import Module
 
 sys.path.insert(1, os.path.join(sys.path[0], '../..'))
-from inflexion import Noun, Verb, Adjective
 
-# Lingua::EN::Inflexion
-class Inflexion(Module):
-    
+# Lingua::EN::Inflex
+
+
+class Inflex(Module):
+
     # START OF NOUN
     # Conversions
     def noun_to_singular(self, term: str, *args, **kwargs) -> str:
@@ -68,10 +70,10 @@ class Inflexion(Module):
     # START OF ADJECTIVE
     # Conversions
     def adj_to_singular(self, term: str, *args, **kwargs) -> str:
-        raise NotImplementedError()
+        return Adjective(term).singular()
 
     def adj_to_plural(self, term: str, *args, **kwargs) -> str:
-        raise NotImplementedError()
+        return Adjective(term).plural()
 
     # Checking
     def adj_is_singular(self, term: str, *args, **kwargs) -> bool:
@@ -79,11 +81,11 @@ class Inflexion(Module):
 
     def adj_is_plural(self, term: str, *args, **kwargs) -> bool:
         raise NotImplementedError()
-    
+
     # Custom
     def adj_to_comparative(self, term: str, *args, **kwargs) -> str:
-        return Adjective(term).comparative()
-    
+        return Adjective(term).comparative(only_suffix=True)
+
     def adj_to_superlative(self, term: str, *args, **kwargs) -> str:
-        return Adjective(term).superlative()
+        return Adjective(term).superlative(only_suffix=True)
     # END OF ADJECTIVE

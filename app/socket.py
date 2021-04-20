@@ -1,7 +1,7 @@
 from .modules import (Inflect,
                      Inflection,
                      Inflector,
-                     Inflexion,
+                     Inflex,
                      LemmInflect,
                      NLTK,
                      Pattern,
@@ -16,9 +16,9 @@ import time
 from flask_socketio import Namespace, emit
 
 from .db import db, get_known_corrects, get_random_word
-from .models import get_random_conversion, get_supported_modules
+from .models import get_performance, get_random_conversion, get_supported_modules
 
-class InflexionNamespace(Namespace):
+class InflexNamespace(Namespace):
 
     def on_connect(self):
         # TODO: Replace this with logging
@@ -96,4 +96,22 @@ class InflexionNamespace(Namespace):
         modules = get_supported_modules(pos, wordform, show_competitors)
         emit("output_modules", {
             "modules": [module.get_name() for module in modules]
+        })
+
+    def on_input_performance(self, json):
+        """
+        Called whenever Client wants to see performance statistics of the
+        current POS and Wordform, for all modules that support it
+        """
+        # Get request parameters
+        pos = json["pos"]
+        wordform = json["wordform"]
+        source = json["source"]
+        
+        labels, performance, n_terms = get_performance(pos, wordform, source)
+
+        emit("output_performance", {
+            "labels": labels,
+            "performance": performance,
+            "n_terms": n_terms
         })

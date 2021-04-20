@@ -8,6 +8,8 @@ from nltk.corpus import wordnet as wn
 from nltk.stem import WordNetLemmatizer
 
 # https://github.com/nltk/nltk
+
+
 class NLTK(Module):
 
     # START OF NOUN
@@ -76,5 +78,11 @@ class NLTK(Module):
         raise NotImplementedError()
 
     def adj_is_plural(self, term: str, *args, **kwargs) -> bool:
+        raise NotImplementedError()
+
+    def adj_to_comparative(self, term: str, *args, **kwargs) -> str:
+        raise NotImplementedError()
+
+    def adj_to_superlative(self, term: str, *args, **kwargs) -> str:
         raise NotImplementedError()
     # END OF ADJECTIVE

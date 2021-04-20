@@ -2,7 +2,7 @@
     "V": {
         "past": {
             "past": {
-                "Inflexion": {
+                "Inflex": {
                     "correct": 16557,
                     "incorrect": 168
                 },
@@ -20,7 +20,7 @@
                 }
             },
             "pres_part": {
-                "Inflexion": {
+                "Inflex": {
                     "correct": 461,
                     "incorrect": 16029
                 },
@@ -38,7 +38,7 @@
                 }
             },
             "sing": {
-                "Inflexion": {
+                "Inflex": {
                     "correct": 15657,
                     "incorrect": 475
                 },
@@ -56,7 +56,7 @@
                 }
             },
             "plur": {
-                "Inflexion": {
+                "Inflex": {
                     "correct": 15300,
                     "incorrect": 597
                 },
@@ -74,7 +74,7 @@
                 }
             },
             "past_part": {
-                "Inflexion": {
+                "Inflex": {
                     "correct": 16514,
                     "incorrect": 279
                 },
@@ -94,7 +94,7 @@
         },
         "pres_part": {
             "past": {
-                "Inflexion": {
+                "Inflex": {
                     "correct": 601,
                     "incorrect": 16124
                 },
@@ -116,7 +116,7 @@
                 }
             },
             "pres_part": {
-                "Inflexion": {
+                "Inflex": {
                     "correct": 16484,
                     "incorrect": 6
                 },
@@ -138,7 +138,7 @@
                 }
             },
             "sing": {
-                "Inflexion": {
+                "Inflex": {
                     "correct": 15710,
                     "incorrect": 422
                 },
@@ -160,7 +160,7 @@
                 }
             },
             "plur": {
-                "Inflexion": {
+                "Inflex": {
                     "correct": 15415,
                     "incorrect": 482
                 },
@@ -182,7 +182,7 @@
                 }
             },
             "past_part": {
-                "Inflexion": {
+                "Inflex": {
                     "correct": 638,
                     "incorrect": 16155
                 },
@@ -206,7 +206,7 @@
         },
         "sing": {
             "past": {
-                "Inflexion": {
+                "Inflex": {
                     "correct": 164,
                     "incorrect": 16561
                 },
@@ -224,7 +224,7 @@
                 }
             },
             "pres_part": {
-                "Inflexion": {
+                "Inflex": {
                     "correct": 1,
                     "incorrect": 16489
                 },
@@ -242,7 +242,7 @@
                 }
             },
             "sing": {
-                "Inflexion": {
+                "Inflex": {
                     "correct": 16125,
                     "incorrect": 7
                 },
@@ -260,7 +260,7 @@
                 }
             },
             "plur": {
-                "Inflexion": {
+                "Inflex": {
                     "correct": 15704,
                     "incorrect": 193
                 },
@@ -278,7 +278,7 @@
                 }
             },
             "past_part": {
-                "Inflexion": {
+                "Inflex": {
                     "correct": 173,
                     "incorrect": 16620
                 },
@@ -298,7 +298,7 @@
         },
         "plur": {
             "past": {
-                "Inflexion": {
+                "Inflex": {
                     "correct": 165,
                     "incorrect": 16560
                 },
@@ -328,7 +328,7 @@
                 }
             },
             "pres_part": {
-                "Inflexion": {
+                "Inflex": {
                     "correct": 1,
                     "incorrect": 16489
                 },
@@ -358,7 +358,7 @@
                 }
             },
             "sing": {
-                "Inflexion": {
+                "Inflex": {
                     "correct": 15642,
                     "incorrect": 490
                 },
@@ -388,7 +388,7 @@
                 }
             },
             "plur": {
-                "Inflexion": {
+                "Inflex": {
                     "correct": 15751,
                     "incorrect": 146
                 },
@@ -418,7 +418,7 @@
                 }
             },
             "past_part": {
-                "Inflexion": {
+                "Inflex": {
                     "correct": 174,
                     "incorrect": 16619
                 },
@@ -450,7 +450,7 @@
         },
         "past_part": {
             "past": {
-                "Inflexion": {
+                "Inflex": {
                     "correct": 16474,
                     "incorrect": 251
                 },
@@ -468,7 +468,7 @@
                 }
             },
             "pres_part": {
-                "Inflexion": {
+                "Inflex": {
                     "correct": 465,
                     "incorrect": 16025
                 },
@@ -486,7 +486,7 @@
                 }
             },
             "sing": {
-                "Inflexion": {
+                "Inflex": {
                     "correct": 15664,
                     "incorrect": 468
                 },
@@ -504,7 +504,7 @@
                 }
             },
             "plur": {
-                "Inflexion": {
+                "Inflex": {
                     "correct": 15324,
                     "incorrect": 573
                 },
@@ -522,7 +522,7 @@
                 }
             },
             "past_part": {
-                "Inflexion": {
+                "Inflex": {
                     "correct": 16593,
                     "incorrect": 200
                 },
@@ -544,7 +544,7 @@
     "N": {
         "plur": {
             "plur": {
-                "Inflexion": {
+                "Inflex": {
                     "correct": 77893,
                     "incorrect": 3567
                 },
@@ -578,7 +578,7 @@
                 }
             },
             "sing": {
-                "Inflexion": {
+                "Inflex": {
                     "correct": 72869,
                     "incorrect": 3386
                 },
@@ -614,7 +614,7 @@
         },
         "sing": {
             "plur": {
-                "Inflexion": {
+                "Inflex": {
                     "correct": 74805,
                     "incorrect": 6655
                 },
@@ -652,7 +652,7 @@
                 }
             },
             "sing": {
-                "Inflexion": {
+                "Inflex": {
                     "correct": 75262,
                     "incorrect": 993
                 },

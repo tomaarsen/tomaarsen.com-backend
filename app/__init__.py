@@ -4,9 +4,9 @@ from flask import Flask, redirect, url_for
 import eventlet
 from flask_socketio import SocketIO
 
-from .socket import InflexionNamespace
+from .socket import InflexNamespace
 
-socketio = SocketIO(cors_allowed_origins="http://127.0.0.1:5000")
+socketio = SocketIO(cors_allowed_origins=["http://127.0.0.1:5000", "http://localhost:5000"])
 
 def create_app(test_config=None):
     # create and configure the app
@@ -33,10 +33,10 @@ def create_app(test_config=None):
 
     @app.errorhandler(404)
     def page_not_found(e):
-        """Redirect to inflexion for the time being"""
-        return redirect(url_for("inflexion.index"), 302)
+        """Redirect to Inflex for the time being"""
+        return redirect(url_for("inflex.index"), 302)
 
     socketio.init_app(app)
-    socketio.on_namespace(InflexionNamespace())
+    socketio.on_namespace(InflexNamespace())
 
     return app

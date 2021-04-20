@@ -1,2 +1,2 @@
-# InflexionSite
- Website for showcasing Inflexion performance
+# InflexSite
+ Website for showcasing Inflex performance

@@ -7,6 +7,8 @@ from .module import Module
 from pyinflect import getInflection
 
 # https://github.com/bjascob/pyInflect
+
+
 class PyInflect(Module):
 
     # START OF NOUN
@@ -100,4 +102,16 @@ class PyInflect(Module):
 
     def adj_is_plural(self, term: str, *args, **kwargs) -> bool:
         raise NotImplementedError()
+
+    def adj_to_comparative(self, term: str, *args, **kwargs) -> str:
+        o = getInflection(term, tag="JJR")
+        if o:
+            return o[0]
+        return None
+
+    def adj_to_superlative(self, term: str, *args, **kwargs) -> str:
+        o = getInflection(term, tag="JJS")
+        if o:
+            return o[0]
+        return None
     # END OF ADJECTIVE

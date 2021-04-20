@@ -7,7 +7,7 @@ pymongo
 inflect
 inflection
 Inflector
-git+https://github.com/CubieDev/Inflexion
+inflex
 lemminflect
 pyinflect
 textblob

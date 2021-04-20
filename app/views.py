@@ -4,14 +4,26 @@ from flask import (
 
 from .models import MODULE_NAMES
 
-bp = Blueprint('inflexion', __name__, url_prefix='/inflexion',
-               static_folder="static")
+bp = Blueprint("inflex", __name__, url_prefix="/inflex",
+               static_folder="static/css")
 
-@bp.route('/')
+@bp.route("/")
 def index():
-    return render_template('inflexion.html', modules=MODULE_NAMES)
+    return redirect(url_for("inflex.inflex_try"), code=302)
 
+@bp.route("/try")
+def inflex_try():
+    return render_template("inflex/try.html", modules=MODULE_NAMES)
+
+@bp.route("/performance")
+def inflex_performance():
+    return render_template("inflex/performance.html")
+
+# @bp.route("/test")
+# def test():
+    # return render_template("inflex/test.html")
 
 @bp.route("/<path>")
 def redirect_to_index(path):
-    return redirect(url_for("inflexion.index"), code=302)
+    print(path)
+    return redirect(url_for("inflex.inflex_try"), code=302)

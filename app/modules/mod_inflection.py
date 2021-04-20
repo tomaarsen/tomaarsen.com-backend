@@ -7,6 +7,8 @@ from .module import Module
 from inflection import singularize, pluralize
 
 # https://github.com/jpvanhal/inflection
+
+
 class Inflection(Module):
 
     # START OF NOUN
@@ -37,7 +39,7 @@ class Inflection(Module):
         raise NotImplementedError()
 
     def verb_to_plural(self, term: str, *args, **kwargs) -> str:
-        #return pluralize(term)
+        # return pluralize(term)
         raise NotImplementedError()
 
     def verb_to_pret(self, term: str, *args, **kwargs) -> str:
@@ -79,5 +81,11 @@ class Inflection(Module):
         raise NotImplementedError()
 
     def adj_is_plural(self, term: str, *args, **kwargs) -> bool:
+        raise NotImplementedError()
+
+    def adj_to_comparative(self, term: str, *args, **kwargs) -> str:
+        raise NotImplementedError()
+
+    def adj_to_superlative(self, term: str, *args, **kwargs) -> str:
         raise NotImplementedError()
     # END OF ADJECTIVE

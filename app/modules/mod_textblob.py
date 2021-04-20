@@ -8,6 +8,8 @@ from textblob.inflect import singularize, pluralize
 from textblob import Word
 
 # https://github.com/sloria/TextBlob
+
+
 class TextBlob(Module):
 
     # START OF NOUN
@@ -15,7 +17,7 @@ class TextBlob(Module):
     def noun_to_singular(self, term: str, *args, **kwargs) -> str:
         # predicted = Word(term).lemmatize(pos="n")
         # if predicted != term:
-            # return predicted
+        # return predicted
         # else:
         return singularize(term)
 
@@ -81,5 +83,11 @@ class TextBlob(Module):
         raise NotImplementedError()
 
     def adj_is_plural(self, term: str, *args, **kwargs) -> bool:
+        raise NotImplementedError()
+
+    def adj_to_comparative(self, term: str, *args, **kwargs) -> str:
+        raise NotImplementedError()
+
+    def adj_to_superlative(self, term: str, *args, **kwargs) -> str:
         raise NotImplementedError()
     # END OF ADJECTIVE

@@ -1,6 +1,7 @@
 
 from ..constants import POS, Wordform
 
+
 class Module(object):
     def __init__(self) -> None:
         super().__init__()
@@ -11,7 +12,7 @@ class Module(object):
                 return self.noun_to_singular(term, *args, **kwargs)
             elif wordform == Wordform.PLUR:
                 return self.noun_to_plural(term, *args, **kwargs)
-        
+
         elif pos == POS.V:
             if wordform == Wordform.SING:
                 return self.verb_to_singular(term, *args, **kwargs)
@@ -23,12 +24,16 @@ class Module(object):
                 return self.verb_to_past_part(term, *args, **kwargs)
             elif wordform == Wordform.PRES_PART:
                 return self.verb_to_pres_part(term, *args, **kwargs)
-        
+
         elif pos == POS.A:
             if wordform == Wordform.SING:
                 return self.adj_to_singular(term, *args, **kwargs)
             elif wordform == Wordform.PLUR:
                 return self.adj_to_plural(term, *args, **kwargs)
+            elif wordform == Wordform.COMP:
+                return self.adj_to_comparative(term, *args, **kwargs)
+            elif wordform == Wordform.SUPER:
+                return self.adj_to_superlative(term, *args, **kwargs)
 
     @classmethod
     def get_name(cls) -> str:
@@ -100,5 +105,11 @@ class Module(object):
         raise NotImplementedError()
 
     def adj_is_plural(self, term: str, *args, **kwargs) -> bool:
+        raise NotImplementedError()
+
+    def adj_to_comparative(self, term: str, *args, **kwargs) -> str:
+        raise NotImplementedError()
+
+    def adj_to_superlative(self, term: str, *args, **kwargs) -> str:
         raise NotImplementedError()
     # END OF ADJECTIVE
