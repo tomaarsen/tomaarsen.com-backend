@@ -42,13 +42,25 @@
             <ul class="list-unstyled ps-0">
                 <li class="mb-1">
                     <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
-                        data-bs-target="#home-collapse" aria-expanded="true">
-                        Inflex
+                        data-bs-target="#projects-collapse" aria-expanded="true">
+                        Projects
                     </button>
-                    <div class="collapse show" id="home-collapse">
-                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                            <li><a href="try" class="link-dark rounded">Try</a></li>
-                            <li><a href="performance" class="link-dark rounded">Performance</a></li>
+                    
+                    <div class="collapse show" id="projects-collapse">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 indent-1">
+                           <li>
+                                <button class="btn btn-toggle align-items-center rounded collapsed indent-1"
+                                    data-bs-toggle="collapse" data-bs-target="#inflex-collapse" aria-expanded="true">
+                                    Inflex
+                                </button>
+                                <div class="collapse show" id="inflex-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 indent-2">
+                                        <li><a href="try" class="link-dark rounded">Try</a></li>
+                                        <li><a href="performance" class="link-dark rounded">Performance</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#" class="link-dark rounded small">TheNounProjectAPI</a></li>
                         </ul>
                     </div>
                 </li>
