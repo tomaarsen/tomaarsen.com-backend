@@ -39,76 +39,77 @@
         </div>
         <!-- Sidebar -->
         <div class="sidebar box">
-            <ul class="list-unstyled ps-0">
-                <li class="mb-1">
-                    <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
-                        data-bs-target="#projects-collapse" aria-expanded="true">
-                        Projects
-                    </button>
-                    
-                    <div class="collapse show" id="projects-collapse">
-                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 indent-1">
-                           <li>
-                                <button class="btn btn-toggle align-items-center rounded collapsed indent-1"
-                                    data-bs-toggle="collapse" data-bs-target="#inflex-collapse" aria-expanded="true">
-                                    Inflex
-                                </button>
-                                <div class="collapse show" id="inflex-collapse">
-                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 indent-2">
+            <div class="accordion accordion-flush" id="sidebar">
+                <!-- Projects -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="projects-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#projects-collapse" aria-expanded="false" aria-controls="projects-collapse">
+                            Projects
+                        </button>
+                    </h2>
+
+                    <div id="projects-collapse" class="accordion-collapse collapse" aria-labelledby="projects-header"
+                        data-bs-parent="#sidebar">
+                        <div class="accordion-body p-0">
+                            <!-- Inflex -->
+                            <ul class="list-group list-group-flush ps-1">
+                                <li class="list-group-item sidebar-list">
+                                    <!-- Inflex
+                                    <ul class="list-group list-group-flush">
                                         <li><a href="try" class="link-dark rounded">Try</a></li>
                                         <li><a href="performance" class="link-dark rounded">Performance</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li><a href="#" class="link-dark rounded small">TheNounProjectAPI</a></li>
-                        </ul>
+                                    </ul> -->
+                                    <button class="btn btn-toggle align-items-center rounded collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#inflex-collapse"
+                                        aria-expanded="false">
+                                        Inflex
+                                    </button>
+                                    <div class="collapse" id="inflex-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal">
+                                            <li><a href="try" class="link-dark rounded">Try</a></li>
+                                            <li><a href="performance" class="link-dark rounded">Performance</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">TheNounProjectAPI</li>
+                            </ul>
+                        </div>
                     </div>
-                </li>
-                <!--
-                <li class="mb-1">
-                    <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
-                        data-bs-target="#dashboard-collapse" aria-expanded="false">
-                        Dashboard
-                    </button>
-                    <div class="collapse" id="dashboard-collapse">
-                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                            <li><a href="#" class="link-dark rounded">Overview</a></li>
-                            <li><a href="#" class="link-dark rounded">Weekly</a></li>
-                            <li><a href="#" class="link-dark rounded">Monthly</a></li>
-                            <li><a href="#" class="link-dark rounded">Annually</a></li>
-                        </ul>
+                </div>
+                <!-- Skills -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="skills-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#skills-collapse" aria-expanded="false" aria-controls="skills-collapse">
+                            Skills
+                        </button>
+                    </h2>
+                    <div id="skills-collapse" class="accordion-collapse collapse" aria-labelledby="skills-header"
+                        data-bs-parent="#sidebar">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion
+                            body. Let's imagine this being filled with some actual content.</div>
                     </div>
-                </li>
-                <li class="mb-1">
-                    <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
-                        data-bs-target="#orders-collapse" aria-expanded="false">
-                        Orders
-                    </button>
-                    <div class="collapse" id="orders-collapse">
-                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                            <li><a href="#" class="link-dark rounded">New</a></li>
-                            <li><a href="#" class="link-dark rounded">Processed</a></li>
-                            <li><a href="#" class="link-dark rounded">Shipped</a></li>
-                            <li><a href="#" class="link-dark rounded">Returned</a></li>
-                        </ul>
+                </div>
+                <!-- About -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="about-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#about-collapse" aria-expanded="false" aria-controls="about-collapse">
+                            About
+                        </button>
+                    </h2>
+                    <div id="about-collapse" class="accordion-collapse collapse" aria-labelledby="about-header"
+                        data-bs-parent="#sidebar">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion
+                            body. Nothing more exciting happening here in terms of content, but just filling up the
+                            space to make it look, at least at first glance, a bit more representative of how this would
+                            look in a real-world application.</div>
                     </div>
-                </li>
-                <li class="border-top my-3"></li>
-                <li class="mb-1">
-                    <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
-                        data-bs-target="#account-collapse" aria-expanded="false">
-                        Account
-                    </button>
-                    <div class="collapse" id="account-collapse">
-                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                            <li><a href="#" class="link-dark rounded">New...</a></li>
-                            <li><a href="#" class="link-dark rounded">Profile</a></li>
-                            <li><a href="#" class="link-dark rounded">Settings</a></li>
-                            <li><a href="#" class="link-dark rounded">Sign out</a></li>
-                        </ul>
-                    </div>
-                </li>-->
-            </ul>
+                </div>
+            </div>
         </div>
         <div class="content">
             <div class="box">

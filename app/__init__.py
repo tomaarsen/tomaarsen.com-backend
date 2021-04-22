@@ -1,7 +1,6 @@
 import os
 
 from flask import Flask, redirect, url_for
-import eventlet
 from flask_socketio import SocketIO
 
 from .socket import InflexNamespace
