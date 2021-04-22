@@ -4,8 +4,7 @@ from flask import (
 
 from .models import MODULE_NAMES
 
-bp = Blueprint("inflex", __name__, url_prefix="/inflex",
-               static_folder="static/css")
+bp = Blueprint("inflex", __name__, url_prefix="/inflex")
 
 @bp.route("/")
 def index():
