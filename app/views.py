@@ -2,36 +2,10 @@ from app.db import get_known_corrects, get_random_word_lemma
 from flask import (
     Blueprint, flash, g, redirect, render_template, request, session, url_for, jsonify
 )
-import time
-import random
 
 from .models import MODULE_NAMES, get_performance, get_random_conversion, get_supported_modules
 
-# bp = Blueprint("inflex", __name__, url_prefix="/inflex")
-
-# @bp.route("/")
-# def index():
-#     return redirect(url_for("inflex.inflex_try"), code=302)
-
-# @bp.route("/try")
-# def inflex_try():
-#     return render_template("inflex/try.html", modules=MODULE_NAMES)
-
-# @bp.route("/performance")
-# def inflex_performance():
-#     return render_template("inflex/performance.html")
-
-# # @bp.route("/test")
-# # def test():
-#     # return render_template("inflex/test.html")
-
-# @bp.route("/<path>")
-# def redirect_to_index(path):
-#     print(path)
-#     return redirect(url_for("inflex.inflex_try"), code=302)
-
 api = Blueprint("api", __name__, url_prefix="/api")
-
 
 @api.route("/try/go", methods=["POST"])
 def api_try():
