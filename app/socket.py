@@ -15,7 +15,7 @@ import time
 
 from flask_socketio import Namespace, emit
 
-from .db import db, get_known_corrects, get_random_word
+from .db import db, get_known_corrects, get_random_word_lemma
 from .models import get_performance, get_random_conversion, get_supported_modules
 
 class InflexNamespace(Namespace):
@@ -39,7 +39,7 @@ class InflexNamespace(Namespace):
         }})
         
         # Get a random word
-        word = get_random_word(pos)
+        word, _ = get_random_word_lemma(pos)
 
         # Emit the randomly generated data to the Client
         emit("conversion", {

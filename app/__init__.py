@@ -1,11 +1,12 @@
 import os
 
 from flask import Flask, redirect, url_for
-from flask_socketio import SocketIO
+from flask.json import jsonify
+# from flask_socketio import SocketIO
 
 from .socket import InflexNamespace
 
-socketio = SocketIO(cors_allowed_origins=["http://127.0.0.1:5000", "http://localhost:5000"])
+# socketio = SocketIO(cors_allowed_origins=["http://127.0.0.1:5000", "http://localhost:5000"])
 
 def create_app(test_config=None):
     # create and configure the app
@@ -28,14 +29,15 @@ def create_app(test_config=None):
         pass
 
     from . import views
-    app.register_blueprint(views.bp)
+    # app.register_blueprint(views.bp)
+    app.register_blueprint(views.api)
 
-    @app.errorhandler(404)
-    def page_not_found(e):
-        """Redirect to Inflex for the time being"""
-        return redirect(url_for("inflex.index"), 302)
+    # @app.errorhandler(404)
+    # def page_not_found(e):
+    #     """Redirect to Inflex for the time being"""
+    #     return redirect(url_for("inflex.index"), 302)
 
-    socketio.init_app(app)
-    socketio.on_namespace(InflexNamespace())
+    # socketio.init_app(app)
+    # socketio.on_namespace(InflexNamespace())
 
     return app

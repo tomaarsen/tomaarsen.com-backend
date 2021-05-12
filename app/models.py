@@ -92,6 +92,9 @@ def get_performance(pos: str, wordform: str, source: str):
         "celex_word": "app/static/data/celex_word_performance.json",
         "celex_collocation": "app/static/data/celex_collocation_performance.json",
         "agid": "app/static/data/agid_performance.json",
+        "wiktionary": "app/static/data/wiktionary_performance.json",
+        "wiktionary_word": "app/static/data/wiktionary_word_performance.json",
+        "wiktionary_collocation": "app/static/data/wiktionary_collocation_performance.json",
     }
     with open(sources[source], "r") as f:
         data = json.load(f)

@@ -129,3 +129,5 @@ dmypy.json
 backup
 # Folder with code to gather CELEX performance
 celex
+# Folder with code to gather Wiktionary performance
+wiktionary

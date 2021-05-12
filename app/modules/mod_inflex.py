@@ -27,10 +27,10 @@ class Inflex(Module):
 
     # Checking
     def noun_is_singular(self, term: str, *args, **kwargs) -> bool:
-        raise Noun(term).is_singular()
+        return Noun(term).is_singular()
 
     def noun_is_plural(self, term: str, *args, **kwargs) -> bool:
-        raise Noun(term).is_plural()
+        return Noun(term).is_plural()
     # END OF NOUN
 
     # START OF VERB

@@ -1,0 +1,808 @@
+{
+    "v": {
+        "pres_part": {
+            "pres_part": {
+                "Inflex": {
+                    "correct": 29218,
+                    "incorrect": 63
+                },
+                "Inflect": {
+                    "correct": 4,
+                    "incorrect": 29277
+                },
+                "LemmInflect": {
+                    "correct": 28321,
+                    "incorrect": 960
+                },
+                "Pattern": {
+                    "correct": 26867,
+                    "incorrect": 2414
+                },
+                "PyInflect": {
+                    "correct": 0,
+                    "incorrect": 29281
+                }
+            },
+            "plur": {
+                "Inflex": {
+                    "correct": 28209,
+                    "incorrect": 664
+                },
+                "Inflect": {
+                    "correct": 27383,
+                    "incorrect": 1490
+                },
+                "LemmInflect": {
+                    "correct": 27595,
+                    "incorrect": 1278
+                },
+                "Pattern": {
+                    "correct": 26290,
+                    "incorrect": 2583
+                },
+                "PyInflect": {
+                    "correct": 14130,
+                    "incorrect": 14743
+                }
+            },
+            "sing": {
+                "Inflex": {
+                    "correct": 24471,
+                    "incorrect": 491
+                },
+                "Inflect": {
+                    "correct": 23279,
+                    "incorrect": 1683
+                },
+                "LemmInflect": {
+                    "correct": 24184,
+                    "incorrect": 778
+                },
+                "Pattern": {
+                    "correct": 23027,
+                    "incorrect": 1935
+                },
+                "PyInflect": {
+                    "correct": 0,
+                    "incorrect": 24962
+                }
+            },
+            "past_part": {
+                "Inflex": {
+                    "correct": 188,
+                    "incorrect": 390
+                },
+                "Inflect": {
+                    "correct": 1,
+                    "incorrect": 577
+                },
+                "LemmInflect": {
+                    "correct": 239,
+                    "incorrect": 339
+                },
+                "Pattern": {
+                    "correct": 244,
+                    "incorrect": 334
+                },
+                "PyInflect": {
+                    "correct": 3,
+                    "incorrect": 575
+                }
+            },
+            "past": {
+                "Inflex": {
+                    "correct": 194,
+                    "incorrect": 302
+                },
+                "Inflect": {
+                    "correct": 3,
+                    "incorrect": 493
+                },
+                "LemmInflect": {
+                    "correct": 198,
+                    "incorrect": 298
+                },
+                "Pattern": {
+                    "correct": 186,
+                    "incorrect": 310
+                },
+                "PyInflect": {
+                    "correct": 3,
+                    "incorrect": 493
+                }
+            }
+        },
+        "plur": {
+            "pres_part": {
+                "Inflex": {
+                    "correct": 7,
+                    "incorrect": 29274
+                },
+                "Inflect": {
+                    "correct": 7,
+                    "incorrect": 29274
+                },
+                "LemmInflect": {
+                    "correct": 27812,
+                    "incorrect": 1469
+                },
+                "NLTK": {
+                    "correct": 8271,
+                    "incorrect": 21010
+                },
+                "Pattern": {
+                    "correct": 25739,
+                    "incorrect": 3542
+                },
+                "PyInflect": {
+                    "correct": 0,
+                    "incorrect": 29281
+                },
+                "TextBlob": {
+                    "correct": 8210,
+                    "incorrect": 21071
+                }
+            },
+            "plur": {
+                "Inflex": {
+                    "correct": 29841,
+                    "incorrect": 99
+                },
+                "Inflect": {
+                    "correct": 29881,
+                    "incorrect": 59
+                },
+                "LemmInflect": {
+                    "correct": 29446,
+                    "incorrect": 494
+                },
+                "NLTK": {
+                    "correct": 8307,
+                    "incorrect": 21633
+                },
+                "Pattern": {
+                    "correct": 28936,
+                    "incorrect": 1004
+                },
+                "PyInflect": {
+                    "correct": 14468,
+                    "incorrect": 15472
+                },
+                "TextBlob": {
+                    "correct": 29882,
+                    "incorrect": 58
+                }
+            },
+            "sing": {
+                "Inflex": {
+                    "correct": 25694,
+                    "incorrect": 298
+                },
+                "Inflect": {
+                    "correct": 25171,
+                    "incorrect": 821
+                },
+                "LemmInflect": {
+                    "correct": 25555,
+                    "incorrect": 437
+                },
+                "NLTK": {
+                    "correct": 7668,
+                    "incorrect": 18324
+                },
+                "Pattern": {
+                    "correct": 25172,
+                    "incorrect": 820
+                },
+                "PyInflect": {
+                    "correct": 0,
+                    "incorrect": 25992
+                },
+                "TextBlob": {
+                    "correct": 7606,
+                    "incorrect": 18386
+                }
+            },
+            "past_part": {
+                "Inflex": {
+                    "correct": 1,
+                    "incorrect": 625
+                },
+                "Inflect": {
+                    "correct": 1,
+                    "incorrect": 625
+                },
+                "LemmInflect": {
+                    "correct": 247,
+                    "incorrect": 379
+                },
+                "NLTK": {
+                    "correct": 197,
+                    "incorrect": 429
+                },
+                "Pattern": {
+                    "correct": 251,
+                    "incorrect": 375
+                },
+                "PyInflect": {
+                    "correct": 1,
+                    "incorrect": 625
+                },
+                "TextBlob": {
+                    "correct": 198,
+                    "incorrect": 428
+                }
+            },
+            "past": {
+                "Inflex": {
+                    "correct": 1,
+                    "incorrect": 541
+                },
+                "Inflect": {
+                    "correct": 1,
+                    "incorrect": 541
+                },
+                "LemmInflect": {
+                    "correct": 190,
+                    "incorrect": 352
+                },
+                "NLTK": {
+                    "correct": 130,
+                    "incorrect": 412
+                },
+                "Pattern": {
+                    "correct": 184,
+                    "incorrect": 358
+                },
+                "PyInflect": {
+                    "correct": 1,
+                    "incorrect": 541
+                },
+                "TextBlob": {
+                    "correct": 130,
+                    "incorrect": 412
+                }
+            }
+        },
+        "sing": {
+            "pres_part": {
+                "Inflex": {
+                    "correct": 0,
+                    "incorrect": 25205
+                },
+                "LemmInflect": {
+                    "correct": 24202,
+                    "incorrect": 1003
+                },
+                "Pattern": {
+                    "correct": 22400,
+                    "incorrect": 2805
+                },
+                "PyInflect": {
+                    "correct": 0,
+                    "incorrect": 25205
+                }
+            },
+            "plur": {
+                "Inflex": {
+                    "correct": 25731,
+                    "incorrect": 191
+                },
+                "LemmInflect": {
+                    "correct": 25391,
+                    "incorrect": 531
+                },
+                "Pattern": {
+                    "correct": 24870,
+                    "incorrect": 1052
+                },
+                "PyInflect": {
+                    "correct": 12827,
+                    "incorrect": 13095
+                }
+            },
+            "sing": {
+                "Inflex": {
+                    "correct": 25966,
+                    "incorrect": 26
+                },
+                "LemmInflect": {
+                    "correct": 25787,
+                    "incorrect": 205
+                },
+                "Pattern": {
+                    "correct": 25375,
+                    "incorrect": 617
+                },
+                "PyInflect": {
+                    "correct": 0,
+                    "incorrect": 25992
+                }
+            },
+            "past_part": {
+                "Inflex": {
+                    "correct": 1,
+                    "incorrect": 566
+                },
+                "LemmInflect": {
+                    "correct": 229,
+                    "incorrect": 338
+                },
+                "Pattern": {
+                    "correct": 237,
+                    "incorrect": 330
+                },
+                "PyInflect": {
+                    "correct": 3,
+                    "incorrect": 564
+                }
+            },
+            "past": {
+                "Inflex": {
+                    "correct": 1,
+                    "incorrect": 489
+                },
+                "LemmInflect": {
+                    "correct": 174,
+                    "incorrect": 316
+                },
+                "Pattern": {
+                    "correct": 171,
+                    "incorrect": 319
+                },
+                "PyInflect": {
+                    "correct": 3,
+                    "incorrect": 487
+                }
+            }
+        },
+        "past_part": {
+            "pres_part": {
+                "Inflex": {
+                    "correct": 181,
+                    "incorrect": 381
+                },
+                "LemmInflect": {
+                    "correct": 214,
+                    "incorrect": 348
+                },
+                "Pattern": {
+                    "correct": 238,
+                    "incorrect": 324
+                },
+                "PyInflect": {
+                    "correct": 0,
+                    "incorrect": 562
+                }
+            },
+            "plur": {
+                "Inflex": {
+                    "correct": 444,
+                    "incorrect": 163
+                },
+                "LemmInflect": {
+                    "correct": 217,
+                    "incorrect": 390
+                },
+                "Pattern": {
+                    "correct": 245,
+                    "incorrect": 362
+                },
+                "PyInflect": {
+                    "correct": 267,
+                    "incorrect": 340
+                }
+            },
+            "sing": {
+                "Inflex": {
+                    "correct": 412,
+                    "incorrect": 143
+                },
+                "LemmInflect": {
+                    "correct": 210,
+                    "incorrect": 345
+                },
+                "Pattern": {
+                    "correct": 236,
+                    "incorrect": 319
+                },
+                "PyInflect": {
+                    "correct": 0,
+                    "incorrect": 555
+                }
+            },
+            "past_part": {
+                "Inflex": {
+                    "correct": 465,
+                    "incorrect": 161
+                },
+                "LemmInflect": {
+                    "correct": 231,
+                    "incorrect": 395
+                },
+                "Pattern": {
+                    "correct": 254,
+                    "incorrect": 372
+                },
+                "PyInflect": {
+                    "correct": 3,
+                    "incorrect": 623
+                }
+            },
+            "past": {
+                "Inflex": {
+                    "correct": 178,
+                    "incorrect": 217
+                },
+                "LemmInflect": {
+                    "correct": 101,
+                    "incorrect": 294
+                },
+                "Pattern": {
+                    "correct": 108,
+                    "incorrect": 287
+                },
+                "PyInflect": {
+                    "correct": 1,
+                    "incorrect": 394
+                }
+            }
+        },
+        "past": {
+            "pres_part": {
+                "Inflex": {
+                    "correct": 191,
+                    "incorrect": 298
+                },
+                "LemmInflect": {
+                    "correct": 180,
+                    "incorrect": 309
+                },
+                "Pattern": {
+                    "correct": 182,
+                    "incorrect": 307
+                },
+                "PyInflect": {
+                    "correct": 0,
+                    "incorrect": 489
+                }
+            },
+            "plur": {
+                "Inflex": {
+                    "correct": 404,
+                    "incorrect": 124
+                },
+                "LemmInflect": {
+                    "correct": 181,
+                    "incorrect": 347
+                },
+                "Pattern": {
+                    "correct": 187,
+                    "incorrect": 341
+                },
+                "PyInflect": {
+                    "correct": 220,
+                    "incorrect": 308
+                }
+            },
+            "sing": {
+                "Inflex": {
+                    "correct": 375,
+                    "incorrect": 105
+                },
+                "LemmInflect": {
+                    "correct": 170,
+                    "incorrect": 310
+                },
+                "Pattern": {
+                    "correct": 176,
+                    "incorrect": 304
+                },
+                "PyInflect": {
+                    "correct": 0,
+                    "incorrect": 480
+                }
+            },
+            "past_part": {
+                "Inflex": {
+                    "correct": 182,
+                    "incorrect": 212
+                },
+                "LemmInflect": {
+                    "correct": 103,
+                    "incorrect": 291
+                },
+                "Pattern": {
+                    "correct": 112,
+                    "incorrect": 282
+                },
+                "PyInflect": {
+                    "correct": 2,
+                    "incorrect": 392
+                }
+            },
+            "past": {
+                "Inflex": {
+                    "correct": 421,
+                    "incorrect": 121
+                },
+                "LemmInflect": {
+                    "correct": 196,
+                    "incorrect": 346
+                },
+                "Pattern": {
+                    "correct": 197,
+                    "incorrect": 345
+                },
+                "PyInflect": {
+                    "correct": 2,
+                    "incorrect": 540
+                }
+            }
+        }
+    },
+    "n": {
+        "plur": {
+            "plur": {
+                "Inflex": {
+                    "correct": 180772,
+                    "incorrect": 4812
+                },
+                "Inflect": {
+                    "correct": 66,
+                    "incorrect": 185518
+                },
+                "Inflection": {
+                    "correct": 181134,
+                    "incorrect": 4450
+                },
+                "Inflector": {
+                    "correct": 167351,
+                    "incorrect": 18233
+                },
+                "LemmInflect": {
+                    "correct": 170288,
+                    "incorrect": 15296
+                },
+                "Pattern": {
+                    "correct": 77,
+                    "incorrect": 185507
+                },
+                "PyInflect": {
+                    "correct": 15,
+                    "incorrect": 185569
+                },
+                "TextBlob": {
+                    "correct": 76,
+                    "incorrect": 185508
+                }
+            },
+            "sing": {
+                "Inflex": {
+                    "correct": 176768,
+                    "incorrect": 5049
+                },
+                "Inflect": {
+                    "correct": 171913,
+                    "incorrect": 9904
+                },
+                "Inflection": {
+                    "correct": 174139,
+                    "incorrect": 7678
+                },
+                "Inflector": {
+                    "correct": 175788,
+                    "incorrect": 6029
+                },
+                "LemmInflect": {
+                    "correct": 167097,
+                    "incorrect": 14720
+                },
+                "Pattern": {
+                    "correct": 173434,
+                    "incorrect": 8383
+                },
+                "PyInflect": {
+                    "correct": 61040,
+                    "incorrect": 120777
+                },
+                "TextBlob": {
+                    "correct": 173457,
+                    "incorrect": 8360
+                }
+            }
+        },
+        "sing": {
+            "plur": {
+                "Inflex": {
+                    "correct": 176448,
+                    "incorrect": 9136
+                },
+                "Inflect": {
+                    "correct": 175588,
+                    "incorrect": 9996
+                },
+                "Inflection": {
+                    "correct": 174865,
+                    "incorrect": 10719
+                },
+                "Inflector": {
+                    "correct": 173247,
+                    "incorrect": 12337
+                },
+                "LemmInflect": {
+                    "correct": 170577,
+                    "incorrect": 15007
+                },
+                "NLTK": {
+                    "correct": 36667,
+                    "incorrect": 148917
+                },
+                "Pattern": {
+                    "correct": 176497,
+                    "incorrect": 9087
+                },
+                "PyInflect": {
+                    "correct": 1,
+                    "incorrect": 185583
+                },
+                "TextBlob": {
+                    "correct": 176497,
+                    "incorrect": 9087
+                }
+            },
+            "sing": {
+                "Inflex": {
+                    "correct": 180788,
+                    "incorrect": 1078
+                },
+                "Inflect": {
+                    "correct": 175536,
+                    "incorrect": 6330
+                },
+                "Inflection": {
+                    "correct": 176663,
+                    "incorrect": 5203
+                },
+                "Inflector": {
+                    "correct": 173035,
+                    "incorrect": 8831
+                },
+                "LemmInflect": {
+                    "correct": 178267,
+                    "incorrect": 3599
+                },
+                "NLTK": {
+                    "correct": 37115,
+                    "incorrect": 144751
+                },
+                "Pattern": {
+                    "correct": 172798,
+                    "incorrect": 9068
+                },
+                "PyInflect": {
+                    "correct": 62621,
+                    "incorrect": 119245
+                },
+                "TextBlob": {
+                    "correct": 172797,
+                    "incorrect": 9069
+                }
+            }
+        }
+    },
+    "a": {
+        "comp": {
+            "comp": {
+                "Inflex": {
+                    "correct": 18,
+                    "incorrect": 2249
+                },
+                "LemmInflect": {
+                    "correct": 2180,
+                    "incorrect": 87
+                },
+                "Pattern": {
+                    "correct": 0,
+                    "incorrect": 2267
+                },
+                "PyInflect": {
+                    "correct": 1,
+                    "incorrect": 2266
+                }
+            },
+            "super": {
+                "Inflex": {
+                    "correct": 16,
+                    "incorrect": 2203
+                },
+                "LemmInflect": {
+                    "correct": 2125,
+                    "incorrect": 94
+                },
+                "Pattern": {
+                    "correct": 0,
+                    "incorrect": 2219
+                },
+                "PyInflect": {
+                    "correct": 0,
+                    "incorrect": 2219
+                }
+            },
+            "plur": {
+                "Inflex": {
+                    "correct": 2195,
+                    "incorrect": 70
+                },
+                "LemmInflect": {
+                    "correct": 2108,
+                    "incorrect": 157
+                },
+                "Pattern": {
+                    "correct": 1816,
+                    "incorrect": 449
+                },
+                "PyInflect": {
+                    "correct": 1693,
+                    "incorrect": 572
+                }
+            }
+        },
+        "super": {
+            "comp": {
+                "Inflex": {
+                    "correct": 16,
+                    "incorrect": 2194
+                },
+                "LemmInflect": {
+                    "correct": 2126,
+                    "incorrect": 84
+                },
+                "Pattern": {
+                    "correct": 0,
+                    "incorrect": 2210
+                },
+                "PyInflect": {
+                    "correct": 0,
+                    "incorrect": 2210
+                }
+            },
+            "super": {
+                "Inflex": {
+                    "correct": 20,
+                    "incorrect": 2445
+                },
+                "LemmInflect": {
+                    "correct": 2350,
+                    "incorrect": 115
+                },
+                "Pattern": {
+                    "correct": 0,
+                    "incorrect": 2465
+                },
+                "PyInflect": {
+                    "correct": 0,
+                    "incorrect": 2465
+                }
+            },
+            "plur": {
+                "Inflex": {
+                    "correct": 2378,
+                    "incorrect": 71
+                },
+                "LemmInflect": {
+                    "correct": 2264,
+                    "incorrect": 185
+                },
+                "Pattern": {
+                    "correct": 1904,
+                    "incorrect": 545
+                },
+                "PyInflect": {
+                    "correct": 1779,
+                    "incorrect": 670
+                }
+            }
+        }
+    }
+}
