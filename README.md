@@ -1,2 +1,3 @@
-# Inflexite
- Inflex Website - for showcasing the Performance of [Inflex](https://github.com/tomaarsen/Inflex).
+# Backend for tomaarsen.com
+
+Includes showcasing the Performance of [Inflex](https://github.com/tomaarsen/Inflex).
