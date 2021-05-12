@@ -5,14 +5,54 @@ import json
 from typing import List, Tuple
 from .modules import (
     Inflex,
+
+    Inflect,
+    Inflection,
+    Inflector,
+    LemmInflect,
+    NLTK,
+    Pattern,
+    PyInflect,
+    TextBlob,
+
     Module,
 )
-from .constants import (
-    POS,
-    Wordform, 
-    CONVERSIONS,
-    SUPPORTED_MODULES
-)
+from .constants import CONVERSIONS, POS, Wordform
+
+MODULES = [
+    Inflex,
+
+    Inflect,
+    Inflection,
+    Inflector,
+    LemmInflect,
+    NLTK,
+    Pattern,
+    PyInflect,
+    TextBlob,
+]
+
+MODULE_NAMES = [module().get_name() for module in MODULES]
+
+SUPPORTED_WORDFORMS = {
+    POS.N: [Wordform.SING, Wordform.PLUR],
+    POS.V: [Wordform.SING, Wordform.PLUR, Wordform.PAST, Wordform.PAST_PART, Wordform.PRES_PART],
+    POS.A: [Wordform.SING, Wordform.PLUR, Wordform.COMP, Wordform.SUPER],
+}
+
+SUPPORTED_MODULES = defaultdict(lambda: defaultdict(list))
+for module_class in MODULES:
+    module = module_class()
+    for pos in [POS.N, POS.V, POS.A]:
+        for wordform in SUPPORTED_WORDFORMS[pos]:
+            try:
+                module.run(pos, wordform, "")
+            except NotImplementedError:
+                continue
+            except Exception:
+                pass
+            SUPPORTED_MODULES[pos][wordform].append(module_class)
+
 
 def get_random_conversion() -> Tuple[str, str]:
     """
