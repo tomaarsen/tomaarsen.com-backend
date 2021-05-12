@@ -125,7 +125,7 @@ dmypy.json
 .pyre/
 
 # Custom
-.vscode
+.vscode/settings.json
 backup
 # Folder with code to gather CELEX performance
 celex
