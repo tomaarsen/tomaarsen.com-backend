@@ -1,6 +1,6 @@
 from app.db import get_known_corrects, get_random_word_lemma
 from flask import (
-    Blueprint, flash, g, redirect, render_template, request, session, url_for, jsonify
+    Blueprint, flash, g, redirect, render_template, request, session, url_for, jsonify, send_from_directory
 )
 
 from .models import MODULE_NAMES, get_performance, get_random_conversion, get_supported_modules
@@ -88,3 +88,7 @@ def api_performance():
         "performance": performance,
         "n_terms": n_terms
     })
+
+@api.route("/inflex/paper", methods=["GET", "POST"])
+def api_paper():
+    return send_from_directory("./static/data/", filename='inflex_v2.0.pdf')
