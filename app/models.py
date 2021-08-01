@@ -101,7 +101,14 @@ def get_performance(pos: str, wordform: str, source: str):
         performance_dict = data[pos][wordform]
         module_names = list(next(data.keys() for data in performance_dict.values()))
         n_terms = sum(performance_dict[list(performance_dict.keys())[0]][module_names[0]].values())
-        return module_names, {
-            key: [performance_dict[key][module]["correct"] * 100 / (performance_dict[key][module]["correct"] + performance_dict[key][module]["incorrect"]) for module in module_names]
-            for key in performance_dict
-        }, n_terms
+        return (
+            module_names,
+            {
+                key: [
+                    performance_dict[key][module]["correct"] * 100 / (performance_dict[key][module]["correct"] + performance_dict[key][module]["incorrect"])
+                    for module in module_names
+                ]
+                for key in performance_dict
+            },
+            n_terms
+        )
