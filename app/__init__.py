@@ -33,3 +33,5 @@ def create_app(test_config=None):
     #     return redirect(url_for("inflex.index"), 302)
 
     return app
+
+app = create_app()
