@@ -1,3 +1,5 @@
+import os
+import pickle
 from app.db import get_known_corrects, get_random_word_lemma
 from flask import (
     Blueprint, flash, g, redirect, render_template, request, session, url_for, jsonify, send_from_directory
@@ -92,3 +94,11 @@ def api_performance():
 @api.route("/inflex/paper", methods=["GET", "POST"])
 def api_paper():
     return send_from_directory("./static/data/", filename='inflex_v2.0.pdf')
+
+@api.route("/usage", methods=["GET", "POST"])
+def api_usage():
+    with open(os.path.join("app", "static", "data", "nltk_module.pickle"), "rb") as f:
+        module = pickle.load(f)
+
+    params = module.plot(show=False)
+    return jsonify(params)
