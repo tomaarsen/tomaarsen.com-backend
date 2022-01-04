@@ -95,9 +95,6 @@ def api_performance():
 def api_paper():
     return send_from_directory("./static/data/", filename='inflex_v2.0.pdf')
 
-@api.route("/nltk/usage/plot", methods=["GET", "POST"])
-def api_usage_plot():
-    return send_from_directory("./static/data/", filename='nltk_usage.htm')
 
 @api.route("/nltk/usage/list", methods=["GET", "POST"])
 def api_usage_list():
