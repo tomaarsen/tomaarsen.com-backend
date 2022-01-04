@@ -1,5 +1,5 @@
 import os
-import pickle
+import json
 from app.db import get_known_corrects, get_random_word_lemma
 from flask import (
     Blueprint, flash, g, redirect, render_template, request, session, url_for, jsonify, send_from_directory
@@ -101,7 +101,6 @@ def api_usage_plot():
 
 @api.route("/nltk/usage/list", methods=["GET", "POST"])
 def api_usage_list():
-    with open(os.path.join("app", "static", "data", "nltk_module.pickle"), "rb") as f:
-        module = pickle.load(f)
-    uses = module.usage(cumulative=True)
-    return jsonify(uses)
+    with open(os.path.join("app", "static", "data", "nltk_usage.json"), "r") as f:
+        usage = json.load(f)
+    return jsonify(usage)
