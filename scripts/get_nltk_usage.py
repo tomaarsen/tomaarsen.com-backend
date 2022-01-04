@@ -10,6 +10,6 @@ with open("app/static/data/nltk_module.pickle", "wb") as f:
 # with open("nltk_module.pickle", "rb") as f:
 #     module = pickle.load(f)
 
-# params = module.plot(show=False)
+# params = module.plot(show=False, transparant=True)
 
 # breakpoint()

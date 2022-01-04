@@ -95,10 +95,13 @@ def api_performance():
 def api_paper():
     return send_from_directory("./static/data/", filename='inflex_v2.0.pdf')
 
-@api.route("/usage", methods=["GET", "POST"])
-def api_usage():
+@api.route("/nltk/usage/plot", methods=["GET", "POST"])
+def api_usage_plot():
+    return send_from_directory("./static/data/", filename='nltk_usage.htm')
+
+@api.route("/nltk/usage/list", methods=["GET", "POST"])
+def api_usage_list():
     with open(os.path.join("app", "static", "data", "nltk_module.pickle"), "rb") as f:
         module = pickle.load(f)
-
-    params = module.plot(show=False)
-    return jsonify(params)
+    uses = module.usage(cumulative=True)
+    return jsonify(uses)
