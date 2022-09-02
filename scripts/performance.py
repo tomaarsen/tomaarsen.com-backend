@@ -7,6 +7,7 @@ from app.modules import (Inflect,
                          NLTK,
                          Pattern,
                          PyInflect,
+                         SpaCy,
                          TextBlob,
                          )
 import pymongo
@@ -54,6 +55,7 @@ modules = [
     NLTK(),
     Pattern(),
     PyInflect(),
+    SpaCy(),
     TextBlob(),
 ]
 
@@ -81,13 +83,13 @@ for pos in ["V", "N", "A"]:
                     try:
                         for from_word in from_words:
                             output = method(from_word)
-                            if module.__class__.__name__ not in results[pos][to_wordform][from_wordform]:
-                                results[pos][to_wordform][from_wordform][module.__class__.__name__] = {
+                            if module.get_name() not in results[pos][to_wordform][from_wordform]:
+                                results[pos][to_wordform][from_wordform][module.get_name()] = {
                                     "correct": 0, "incorrect": 0}
                             if output in to_words:
-                                results[pos][to_wordform][from_wordform][module.__class__.__name__]["correct"] += 1
+                                results[pos][to_wordform][from_wordform][module.get_name()]["correct"] += 1
                             else:
-                                results[pos][to_wordform][from_wordform][module.__class__.__name__]["incorrect"] += 1
+                                results[pos][to_wordform][from_wordform][module.get_name()]["incorrect"] += 1
                     except NotImplementedError:
                         pass
 
@@ -107,7 +109,7 @@ if "A" in results:
     results["a"] = results["A"]
     del results["A"]
 
-breakpoint()
-with open("results_3.json", "w") as f:
-    json.dump(results, f)
-breakpoint()
+# breakpoint()
+with open("agid_performance.json", "w") as f:
+    json.dump(results, f, indent=4)
+# breakpoint()

@@ -158,6 +158,6 @@ class AGIDReader(object):
 
 
 if __name__ == "__main__":
-    agid = AGIDReader("agid.txt")
+    agid = AGIDReader("scripts/agid.txt")
     agid.removeProperNouns()
     agid.save()
