@@ -13,6 +13,7 @@ from .modules import (
     NLTK,
     Pattern,
     PyInflect,
+    SpaCy,
     TextBlob,
 
     Module,
@@ -29,6 +30,7 @@ MODULES = [
     NLTK,
     Pattern,
     PyInflect,
+    SpaCy,
     TextBlob,
 ]
 
