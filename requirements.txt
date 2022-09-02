@@ -14,5 +14,7 @@ pyinflect
 textblob
 pattern
 nltk
+spacy
+en_core_web_sm
 
 module_dependencies
