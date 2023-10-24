@@ -24,3 +24,4 @@ pypistats
 huggingface_hub
 GitPython
 matplotlib
+ghapi
