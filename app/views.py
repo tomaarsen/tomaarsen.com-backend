@@ -1,5 +1,6 @@
 import os
 import json
+from pathlib import Path
 from app.db import get_known_corrects, get_random_word_lemma
 from flask import (
     Blueprint, flash, g, redirect, render_template, request, session, url_for, jsonify, send_from_directory
@@ -101,3 +102,13 @@ def api_usage_list():
     with open(os.path.join("app", "static", "data", "nltk_usage.json"), "r") as f:
         usage = json.load(f)
     return jsonify(usage)
+
+@api.route("/usage", methods=["POST"])
+def api_usage():
+    # Get request parameters
+    package = request.json["package"]
+    assert package in ("sentence-transformers", "setfit", "span_marker")
+    metrics = request.json["metrics"]
+    assert metrics in ("hf_models", "github_comments", "github_issues", "github_stars", "pypi")
+
+    return send_from_directory(Path("static") / "data" / "usage_trackers" / package, path=f"{metrics}.json")

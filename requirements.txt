@@ -1,6 +1,6 @@
 wheel
 
-flask==1.1.2
+flask
 eventlet
 
 pymongo
@@ -15,6 +15,12 @@ textblob
 pattern
 nltk
 spacy
-en_core_web_sm
+# Download manually: spacy download en_core_web_sm
 
 module_dependencies
+
+# Usage tracker deps
+pypistats
+huggingface_hub
+GitPython
+matplotlib

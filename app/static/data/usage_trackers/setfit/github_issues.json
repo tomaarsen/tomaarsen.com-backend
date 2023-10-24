@@ -1,0 +1,1505 @@
+{
+    "data": {
+        "2022-07-04": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2022-07-07": {
+            "opened_prs": 3,
+            "opened_issues": 0,
+            "closed_prs": 3,
+            "closed_issues": 0
+        },
+        "2022-07-08": {
+            "opened_prs": 4,
+            "opened_issues": 1,
+            "closed_prs": 5,
+            "closed_issues": 0
+        },
+        "2022-07-09": {
+            "opened_prs": 3,
+            "opened_issues": 0,
+            "closed_prs": 1,
+            "closed_issues": 0
+        },
+        "2022-07-10": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 1,
+            "closed_issues": 0
+        },
+        "2022-07-11": {
+            "opened_prs": 2,
+            "opened_issues": 0,
+            "closed_prs": 2,
+            "closed_issues": 0
+        },
+        "2022-07-12": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 2,
+            "closed_issues": 0
+        },
+        "2022-07-13": {
+            "opened_prs": 3,
+            "opened_issues": 0,
+            "closed_prs": 1,
+            "closed_issues": 0
+        },
+        "2022-07-14": {
+            "opened_prs": 2,
+            "opened_issues": 0,
+            "closed_prs": 4,
+            "closed_issues": 0
+        },
+        "2022-07-15": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2022-07-18": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 1,
+            "closed_issues": 0
+        },
+        "2022-07-19": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 1,
+            "closed_issues": 0
+        },
+        "2022-07-21": {
+            "opened_prs": 2,
+            "opened_issues": 0,
+            "closed_prs": 1,
+            "closed_issues": 0
+        },
+        "2022-07-22": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 2,
+            "closed_issues": 0
+        },
+        "2022-07-23": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2022-07-24": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 1,
+            "closed_issues": 0
+        },
+        "2022-07-25": {
+            "opened_prs": 2,
+            "opened_issues": 0,
+            "closed_prs": 3,
+            "closed_issues": 0
+        },
+        "2022-07-26": {
+            "opened_prs": 2,
+            "opened_issues": 0,
+            "closed_prs": 1,
+            "closed_issues": 0
+        },
+        "2022-07-28": {
+            "opened_prs": 2,
+            "opened_issues": 0,
+            "closed_prs": 3,
+            "closed_issues": 0
+        },
+        "2022-08-04": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2022-08-08": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 1,
+            "closed_issues": 0
+        },
+        "2022-08-14": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 1,
+            "closed_issues": 0
+        },
+        "2022-08-16": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2022-08-17": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 1,
+            "closed_issues": 0
+        },
+        "2022-08-23": {
+            "opened_prs": 3,
+            "opened_issues": 0,
+            "closed_prs": 2,
+            "closed_issues": 0
+        },
+        "2022-08-24": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2022-08-26": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 1,
+            "closed_issues": 0
+        },
+        "2022-08-29": {
+            "opened_prs": 2,
+            "opened_issues": 0,
+            "closed_prs": 1,
+            "closed_issues": 0
+        },
+        "2022-08-30": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 3,
+            "closed_issues": 0
+        },
+        "2022-08-31": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 1,
+            "closed_issues": 0
+        },
+        "2022-09-01": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2022-09-02": {
+            "opened_prs": 2,
+            "opened_issues": 0,
+            "closed_prs": 1,
+            "closed_issues": 0
+        },
+        "2022-09-05": {
+            "opened_prs": 1,
+            "opened_issues": 1,
+            "closed_prs": 1,
+            "closed_issues": 0
+        },
+        "2022-09-08": {
+            "opened_prs": 2,
+            "opened_issues": 0,
+            "closed_prs": 3,
+            "closed_issues": 0
+        },
+        "2022-09-14": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 1,
+            "closed_issues": 0
+        },
+        "2022-09-15": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 1,
+            "closed_issues": 0
+        },
+        "2022-09-16": {
+            "opened_prs": 2,
+            "opened_issues": 0,
+            "closed_prs": 3,
+            "closed_issues": 0
+        },
+        "2022-09-17": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 1,
+            "closed_issues": 0
+        },
+        "2022-09-18": {
+            "opened_prs": 3,
+            "opened_issues": 0,
+            "closed_prs": 1,
+            "closed_issues": 0
+        },
+        "2022-09-19": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 2,
+            "closed_issues": 0
+        },
+        "2022-09-20": {
+            "opened_prs": 3,
+            "opened_issues": 0,
+            "closed_prs": 4,
+            "closed_issues": 0
+        },
+        "2022-09-21": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 1
+        },
+        "2022-09-25": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 1,
+            "closed_issues": 0
+        },
+        "2022-09-26": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2022-09-27": {
+            "opened_prs": 1,
+            "opened_issues": 3,
+            "closed_prs": 0,
+            "closed_issues": 1
+        },
+        "2022-09-28": {
+            "opened_prs": 2,
+            "opened_issues": 0,
+            "closed_prs": 1,
+            "closed_issues": 1
+        },
+        "2022-09-29": {
+            "opened_prs": 0,
+            "opened_issues": 2,
+            "closed_prs": 1,
+            "closed_issues": 1
+        },
+        "2022-09-30": {
+            "opened_prs": 2,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2022-10-02": {
+            "opened_prs": 0,
+            "opened_issues": 2,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2022-10-03": {
+            "opened_prs": 2,
+            "opened_issues": 0,
+            "closed_prs": 3,
+            "closed_issues": 2
+        },
+        "2022-10-04": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2022-10-05": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 1,
+            "closed_issues": 0
+        },
+        "2022-10-06": {
+            "opened_prs": 1,
+            "opened_issues": 4,
+            "closed_prs": 1,
+            "closed_issues": 1
+        },
+        "2022-10-07": {
+            "opened_prs": 2,
+            "opened_issues": 3,
+            "closed_prs": 2,
+            "closed_issues": 0
+        },
+        "2022-10-08": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2022-10-09": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 1,
+            "closed_issues": 0
+        },
+        "2022-10-11": {
+            "opened_prs": 3,
+            "opened_issues": 2,
+            "closed_prs": 4,
+            "closed_issues": 2
+        },
+        "2022-10-12": {
+            "opened_prs": 1,
+            "opened_issues": 3,
+            "closed_prs": 1,
+            "closed_issues": 2
+        },
+        "2022-10-13": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 2,
+            "closed_issues": 1
+        },
+        "2022-10-14": {
+            "opened_prs": 2,
+            "opened_issues": 1,
+            "closed_prs": 2,
+            "closed_issues": 1
+        },
+        "2022-10-15": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2022-10-17": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 1
+        },
+        "2022-10-18": {
+            "opened_prs": 1,
+            "opened_issues": 2,
+            "closed_prs": 1,
+            "closed_issues": 1
+        },
+        "2022-10-19": {
+            "opened_prs": 2,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2022-10-20": {
+            "opened_prs": 0,
+            "opened_issues": 3,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2022-10-21": {
+            "opened_prs": 0,
+            "opened_issues": 2,
+            "closed_prs": 0,
+            "closed_issues": 1
+        },
+        "2022-10-25": {
+            "opened_prs": 1,
+            "opened_issues": 4,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2022-10-26": {
+            "opened_prs": 1,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2022-10-27": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2022-10-28": {
+            "opened_prs": 1,
+            "opened_issues": 2,
+            "closed_prs": 3,
+            "closed_issues": 2
+        },
+        "2022-10-29": {
+            "opened_prs": 1,
+            "opened_issues": 2,
+            "closed_prs": 0,
+            "closed_issues": 1
+        },
+        "2022-10-30": {
+            "opened_prs": 1,
+            "opened_issues": 2,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2022-10-31": {
+            "opened_prs": 3,
+            "opened_issues": 3,
+            "closed_prs": 5,
+            "closed_issues": 3
+        },
+        "2022-11-01": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 2,
+            "closed_issues": 1
+        },
+        "2022-11-02": {
+            "opened_prs": 1,
+            "opened_issues": 3,
+            "closed_prs": 0,
+            "closed_issues": 1
+        },
+        "2022-11-03": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2022-11-04": {
+            "opened_prs": 2,
+            "opened_issues": 1,
+            "closed_prs": 3,
+            "closed_issues": 0
+        },
+        "2022-11-05": {
+            "opened_prs": 2,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2022-11-06": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2022-11-07": {
+            "opened_prs": 3,
+            "opened_issues": 2,
+            "closed_prs": 3,
+            "closed_issues": 3
+        },
+        "2022-11-08": {
+            "opened_prs": 2,
+            "opened_issues": 1,
+            "closed_prs": 5,
+            "closed_issues": 1
+        },
+        "2022-11-09": {
+            "opened_prs": 2,
+            "opened_issues": 1,
+            "closed_prs": 1,
+            "closed_issues": 0
+        },
+        "2022-11-10": {
+            "opened_prs": 2,
+            "opened_issues": 5,
+            "closed_prs": 1,
+            "closed_issues": 0
+        },
+        "2022-11-11": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 1,
+            "closed_issues": 1
+        },
+        "2022-11-12": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2022-11-13": {
+            "opened_prs": 2,
+            "opened_issues": 2,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2022-11-14": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 1
+        },
+        "2022-11-15": {
+            "opened_prs": 1,
+            "opened_issues": 2,
+            "closed_prs": 1,
+            "closed_issues": 0
+        },
+        "2022-11-16": {
+            "opened_prs": 4,
+            "opened_issues": 3,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2022-11-17": {
+            "opened_prs": 1,
+            "opened_issues": 3,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2022-11-18": {
+            "opened_prs": 1,
+            "opened_issues": 1,
+            "closed_prs": 1,
+            "closed_issues": 1
+        },
+        "2022-11-20": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2022-11-22": {
+            "opened_prs": 1,
+            "opened_issues": 2,
+            "closed_prs": 0,
+            "closed_issues": 1
+        },
+        "2022-11-23": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 6,
+            "closed_issues": 2
+        },
+        "2022-11-24": {
+            "opened_prs": 2,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2022-11-25": {
+            "opened_prs": 1,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 1
+        },
+        "2022-11-28": {
+            "opened_prs": 1,
+            "opened_issues": 3,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2022-11-29": {
+            "opened_prs": 2,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2022-11-30": {
+            "opened_prs": 2,
+            "opened_issues": 2,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2022-12-01": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 1
+        },
+        "2022-12-02": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2022-12-05": {
+            "opened_prs": 1,
+            "opened_issues": 3,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2022-12-06": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 1,
+            "closed_issues": 1
+        },
+        "2022-12-07": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 3,
+            "closed_issues": 1
+        },
+        "2022-12-08": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 1,
+            "closed_issues": 0
+        },
+        "2022-12-09": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 1
+        },
+        "2022-12-10": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2022-12-12": {
+            "opened_prs": 1,
+            "opened_issues": 3,
+            "closed_prs": 5,
+            "closed_issues": 0
+        },
+        "2022-12-13": {
+            "opened_prs": 2,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 9
+        },
+        "2022-12-14": {
+            "opened_prs": 3,
+            "opened_issues": 0,
+            "closed_prs": 3,
+            "closed_issues": 3
+        },
+        "2022-12-15": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 2,
+            "closed_issues": 0
+        },
+        "2022-12-16": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 1,
+            "closed_issues": 1
+        },
+        "2022-12-19": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 1,
+            "closed_issues": 1
+        },
+        "2022-12-20": {
+            "opened_prs": 2,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 9
+        },
+        "2022-12-22": {
+            "opened_prs": 1,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2022-12-23": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2022-12-24": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 1,
+            "closed_issues": 0
+        },
+        "2022-12-26": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 1,
+            "closed_issues": 1
+        },
+        "2022-12-27": {
+            "opened_prs": 0,
+            "opened_issues": 2,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2022-12-28": {
+            "opened_prs": 0,
+            "opened_issues": 3,
+            "closed_prs": 1,
+            "closed_issues": 1
+        },
+        "2022-12-29": {
+            "opened_prs": 2,
+            "opened_issues": 1,
+            "closed_prs": 1,
+            "closed_issues": 0
+        },
+        "2022-12-30": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 1,
+            "closed_issues": 1
+        },
+        "2023-01-01": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 1
+        },
+        "2023-01-02": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 1,
+            "closed_issues": 0
+        },
+        "2023-01-03": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-01-05": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 1
+        },
+        "2023-01-06": {
+            "opened_prs": 1,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 1
+        },
+        "2023-01-08": {
+            "opened_prs": 1,
+            "opened_issues": 2,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-01-09": {
+            "opened_prs": 1,
+            "opened_issues": 1,
+            "closed_prs": 1,
+            "closed_issues": 1
+        },
+        "2023-01-10": {
+            "opened_prs": 1,
+            "opened_issues": 1,
+            "closed_prs": 2,
+            "closed_issues": 1
+        },
+        "2023-01-11": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 2,
+            "closed_issues": 1
+        },
+        "2023-01-12": {
+            "opened_prs": 2,
+            "opened_issues": 1,
+            "closed_prs": 1,
+            "closed_issues": 0
+        },
+        "2023-01-13": {
+            "opened_prs": 0,
+            "opened_issues": 2,
+            "closed_prs": 1,
+            "closed_issues": 0
+        },
+        "2023-01-14": {
+            "opened_prs": 1,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-01-15": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 2
+        },
+        "2023-01-17": {
+            "opened_prs": 1,
+            "opened_issues": 4,
+            "closed_prs": 0,
+            "closed_issues": 1
+        },
+        "2023-01-18": {
+            "opened_prs": 1,
+            "opened_issues": 2,
+            "closed_prs": 1,
+            "closed_issues": 2
+        },
+        "2023-01-19": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 2,
+            "closed_issues": 2
+        },
+        "2023-01-20": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-01-22": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 1,
+            "closed_issues": 1
+        },
+        "2023-01-23": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 2,
+            "closed_issues": 0
+        },
+        "2023-01-24": {
+            "opened_prs": 3,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-01-25": {
+            "opened_prs": 0,
+            "opened_issues": 2,
+            "closed_prs": 1,
+            "closed_issues": 1
+        },
+        "2023-01-27": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 1,
+            "closed_issues": 2
+        },
+        "2023-01-30": {
+            "opened_prs": 1,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-01-31": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-02-01": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 2
+        },
+        "2023-02-02": {
+            "opened_prs": 0,
+            "opened_issues": 2,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-02-03": {
+            "opened_prs": 0,
+            "opened_issues": 3,
+            "closed_prs": 0,
+            "closed_issues": 1
+        },
+        "2023-02-06": {
+            "opened_prs": 1,
+            "opened_issues": 2,
+            "closed_prs": 1,
+            "closed_issues": 2
+        },
+        "2023-02-07": {
+            "opened_prs": 3,
+            "opened_issues": 1,
+            "closed_prs": 4,
+            "closed_issues": 1
+        },
+        "2023-02-08": {
+            "opened_prs": 1,
+            "opened_issues": 2,
+            "closed_prs": 2,
+            "closed_issues": 0
+        },
+        "2023-02-09": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-02-10": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-02-12": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-02-13": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-02-14": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 2,
+            "closed_issues": 1
+        },
+        "2023-02-15": {
+            "opened_prs": 0,
+            "opened_issues": 2,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-02-16": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 1
+        },
+        "2023-02-17": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-02-19": {
+            "opened_prs": 2,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-02-20": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-02-24": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 2,
+            "closed_issues": 1
+        },
+        "2023-02-27": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 1,
+            "closed_issues": 1
+        },
+        "2023-02-28": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 1,
+            "closed_issues": 1
+        },
+        "2023-03-01": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-03-06": {
+            "opened_prs": 0,
+            "opened_issues": 3,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-03-07": {
+            "opened_prs": 1,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 1
+        },
+        "2023-03-09": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-03-10": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-03-13": {
+            "opened_prs": 2,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-03-14": {
+            "opened_prs": 1,
+            "opened_issues": 1,
+            "closed_prs": 2,
+            "closed_issues": 2
+        },
+        "2023-03-21": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-03-23": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-03-25": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 1
+        },
+        "2023-03-28": {
+            "opened_prs": 0,
+            "opened_issues": 2,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-03-29": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 1
+        },
+        "2023-03-31": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-04-03": {
+            "opened_prs": 1,
+            "opened_issues": 1,
+            "closed_prs": 1,
+            "closed_issues": 1
+        },
+        "2023-04-07": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-04-08": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-04-10": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 1
+        },
+        "2023-04-11": {
+            "opened_prs": 0,
+            "opened_issues": 3,
+            "closed_prs": 1,
+            "closed_issues": 0
+        },
+        "2023-04-12": {
+            "opened_prs": 2,
+            "opened_issues": 2,
+            "closed_prs": 2,
+            "closed_issues": 0
+        },
+        "2023-04-13": {
+            "opened_prs": 2,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 1
+        },
+        "2023-04-14": {
+            "opened_prs": 1,
+            "opened_issues": 1,
+            "closed_prs": 2,
+            "closed_issues": 2
+        },
+        "2023-04-16": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-04-17": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 1,
+            "closed_issues": 0
+        },
+        "2023-04-18": {
+            "opened_prs": 1,
+            "opened_issues": 2,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-04-19": {
+            "opened_prs": 2,
+            "opened_issues": 1,
+            "closed_prs": 1,
+            "closed_issues": 3
+        },
+        "2023-04-20": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-04-23": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 1,
+            "closed_issues": 0
+        },
+        "2023-04-24": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 1,
+            "closed_issues": 0
+        },
+        "2023-04-26": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-05-03": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-05-04": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-05-05": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 1
+        },
+        "2023-05-06": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-05-07": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 1
+        },
+        "2023-05-12": {
+            "opened_prs": 0,
+            "opened_issues": 3,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-05-13": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-05-18": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-05-19": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-05-20": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-05-22": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 1
+        },
+        "2023-05-31": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 1
+        },
+        "2023-06-13": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-06-15": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-06-16": {
+            "opened_prs": 0,
+            "opened_issues": 2,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-06-19": {
+            "opened_prs": 2,
+            "opened_issues": 1,
+            "closed_prs": 2,
+            "closed_issues": 0
+        },
+        "2023-06-20": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-06-21": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 1
+        },
+        "2023-06-22": {
+            "opened_prs": 0,
+            "opened_issues": 2,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-06-26": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 2
+        },
+        "2023-06-29": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 1,
+            "closed_issues": 0
+        },
+        "2023-06-30": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-07-05": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 1
+        },
+        "2023-07-06": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-07-16": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-07-18": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-07-19": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-07-21": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-07-24": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-07-25": {
+            "opened_prs": 1,
+            "opened_issues": 1,
+            "closed_prs": 4,
+            "closed_issues": 0
+        },
+        "2023-07-26": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 1,
+            "closed_issues": 0
+        },
+        "2023-07-27": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 1,
+            "closed_issues": 0
+        },
+        "2023-07-28": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-07-31": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-08-08": {
+            "opened_prs": 0,
+            "opened_issues": 3,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-08-14": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-08-18": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-08-19": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-08-22": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-08-25": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-08-29": {
+            "opened_prs": 0,
+            "opened_issues": 2,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-08-31": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-09-05": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 1
+        },
+        "2023-09-06": {
+            "opened_prs": 0,
+            "opened_issues": 2,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-09-07": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-09-18": {
+            "opened_prs": 2,
+            "opened_issues": 0,
+            "closed_prs": 1,
+            "closed_issues": 0
+        },
+        "2023-09-21": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-09-25": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-09-28": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-10-02": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-10-03": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-10-04": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2023-10-08": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 1
+        },
+        "2023-10-09": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 1
+        },
+        "2023-10-17": {
+            "opened_prs": 2,
+            "opened_issues": 2,
+            "closed_prs": 2,
+            "closed_issues": 0
+        },
+        "2023-10-19": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 1,
+            "closed_issues": 0
+        }
+    },
+    "last_datetime": "2023-10-21T18:45:10Z"
+}
