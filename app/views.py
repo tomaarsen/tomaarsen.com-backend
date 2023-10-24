@@ -111,4 +111,4 @@ def api_usage():
     metrics = request.json["metrics"]
     assert metrics in ("hf_models", "github_comments", "github_issues", "github_stars", "pypi")
 
-    return send_from_directory(Path("static") / "data" / "usage_trackers" / package, path=f"{metrics}.json")
+    return send_from_directory(Path("static") / "data" / "usage_trackers" / package, filename=f"{metrics}.json")
