@@ -1,6 +1,6 @@
 wheel
 
-flask
+flask==1.1.3
 eventlet
 
 pymongo
