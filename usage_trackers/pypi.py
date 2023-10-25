@@ -1,5 +1,9 @@
 
-from typing import Dict, Literal
+from typing import Dict
+try:
+    from typing import Literal
+except ImportError:
+    from typing_extensions import Literal
 import pypistats
 import json
 
