@@ -6677,7 +6677,13 @@
             "opened_issues": 1,
             "closed_prs": 2,
             "closed_issues": 0
+        },
+        "2023-11-08": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 1
         }
     },
-    "last_datetime": "2023-11-07T22:54:12Z"
+    "last_datetime": "2023-11-08T05:00:23Z"
 }
