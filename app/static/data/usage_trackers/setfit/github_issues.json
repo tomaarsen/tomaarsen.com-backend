@@ -1571,7 +1571,13 @@
             "opened_issues": 0,
             "closed_prs": 5,
             "closed_issues": 0
+        },
+        "2023-12-01": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
         }
     },
-    "last_datetime": "2023-11-30T15:46:27Z"
+    "last_datetime": "2023-12-01T16:34:14Z"
 }
