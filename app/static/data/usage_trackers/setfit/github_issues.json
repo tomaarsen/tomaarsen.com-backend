@@ -1585,11 +1585,11 @@
             "closed_issues": 0
         },
         "2023-12-05": {
-            "opened_prs": 0,
-            "opened_issues": 1,
-            "closed_prs": 0,
-            "closed_issues": 0
+            "opened_prs": 2,
+            "opened_issues": 2,
+            "closed_prs": 5,
+            "closed_issues": 8
         }
     },
-    "last_datetime": "2023-12-05T11:41:07Z"
+    "last_datetime": "2023-12-05T16:03:06Z"
 }
