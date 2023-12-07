@@ -6751,11 +6751,11 @@
             "closed_issues": 0
         },
         "2023-12-07": {
-            "opened_prs": 2,
-            "opened_issues": 1,
-            "closed_prs": 5,
-            "closed_issues": 0
+            "opened_prs": 6,
+            "opened_issues": 2,
+            "closed_prs": 15,
+            "closed_issues": 3
         }
     },
-    "last_datetime": "2023-12-07T11:03:26Z"
+    "last_datetime": "2023-12-07T17:56:51Z"
 }
