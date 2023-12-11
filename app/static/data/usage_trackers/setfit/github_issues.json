@@ -1601,7 +1601,13 @@
             "opened_issues": 2,
             "closed_prs": 1,
             "closed_issues": 1
+        },
+        "2023-12-10": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
         }
     },
-    "last_datetime": "2023-12-07T22:15:34Z"
+    "last_datetime": "2023-12-10T19:11:17Z"
 }
