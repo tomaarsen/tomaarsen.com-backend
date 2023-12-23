@@ -6809,7 +6809,13 @@
             "opened_issues": 1,
             "closed_prs": 0,
             "closed_issues": 0
+        },
+        "2023-12-23": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
         }
     },
-    "last_datetime": "2023-12-23T10:08:00Z"
+    "last_datetime": "2023-12-23T13:00:27Z"
 }
