@@ -293,7 +293,13 @@
             "opened_issues": 1,
             "closed_prs": 0,
             "closed_issues": 1
+        },
+        "2024-01-07": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
         }
     },
-    "last_datetime": "2024-01-05T19:36:05Z"
+    "last_datetime": "2024-01-07T20:17:31Z"
 }
