@@ -9829,11 +9829,11 @@
             "closed_issues": 2
         },
         "2024-01-18": {
-            "opened_prs": 0,
+            "opened_prs": 1,
             "opened_issues": 2,
-            "closed_prs": 0,
-            "closed_issues": 1
+            "closed_prs": 1,
+            "closed_issues": 8
         }
     },
-    "last_datetime": "2024-01-18T11:36:48Z"
+    "last_datetime": "2024-01-18T16:14:52Z"
 }
