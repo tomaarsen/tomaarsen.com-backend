@@ -9839,7 +9839,13 @@
             "opened_issues": 2,
             "closed_prs": 0,
             "closed_issues": 1
+        },
+        "2024-01-20": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 1
         }
     },
-    "last_datetime": "2024-01-20T08:53:16Z"
+    "last_datetime": "2024-01-20T17:28:05Z"
 }
