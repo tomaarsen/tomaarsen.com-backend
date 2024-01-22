@@ -9851,7 +9851,13 @@
             "opened_issues": 1,
             "closed_prs": 0,
             "closed_issues": 0
+        },
+        "2024-01-22": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 1
         }
     },
-    "last_datetime": "2024-01-21T22:33:29Z"
+    "last_datetime": "2024-01-22T00:44:20Z"
 }
