@@ -3389,7 +3389,25 @@
             "opened_issues": 0,
             "closed_prs": 0,
             "closed_issues": 2
+        },
+        "2024-01-20": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2024-01-21": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2024-01-22": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 1
         }
     },
-    "last_datetime": "2024-01-19T15:58:25Z"
+    "last_datetime": "2024-01-22T15:57:05Z"
 }

@@ -2257,9 +2257,21 @@
             "comments_without_me": 0
         },
         "2024-01-19": {
-            "comments": 30,
-            "comments_without_me": 25
+            "comments": 32,
+            "comments_without_me": 27
+        },
+        "2024-01-20": {
+            "comments": 0,
+            "comments_without_me": 0
+        },
+        "2024-01-21": {
+            "comments": 0,
+            "comments_without_me": 0
+        },
+        "2024-01-22": {
+            "comments": 1,
+            "comments_without_me": 1
         }
     },
-    "last_datetime": "2024-01-19T15:54:15Z"
+    "last_datetime": "2024-01-22T15:57:05Z"
 }
