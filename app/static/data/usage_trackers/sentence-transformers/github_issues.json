@@ -9865,11 +9865,11 @@
             "closed_issues": 1
         },
         "2024-01-24": {
-            "opened_prs": 0,
-            "opened_issues": 0,
+            "opened_prs": 1,
+            "opened_issues": 2,
             "closed_prs": 0,
             "closed_issues": 1
         }
     },
-    "last_datetime": "2024-01-24T10:05:13Z"
+    "last_datetime": "2024-01-24T15:58:46Z"
 }
