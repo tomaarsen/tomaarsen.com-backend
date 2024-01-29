@@ -9897,9 +9897,9 @@
         "2024-01-29": {
             "opened_prs": 1,
             "opened_issues": 1,
-            "closed_prs": 0,
-            "closed_issues": 0
+            "closed_prs": 1,
+            "closed_issues": 13
         }
     },
-    "last_datetime": "2024-01-29T03:15:03Z"
+    "last_datetime": "2024-01-29T10:52:29Z"
 }
