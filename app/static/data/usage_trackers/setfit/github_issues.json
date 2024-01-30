@@ -3446,10 +3446,10 @@
         },
         "2024-01-29": {
             "opened_prs": 0,
-            "opened_issues": 0,
+            "opened_issues": 1,
             "closed_prs": 0,
-            "closed_issues": 1
+            "closed_issues": 2
         }
     },
-    "last_datetime": "2024-01-29T16:58:04Z"
+    "last_datetime": "2024-01-29T20:40:47Z"
 }
