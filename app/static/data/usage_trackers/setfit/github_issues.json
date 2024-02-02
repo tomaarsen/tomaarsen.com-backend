@@ -3463,11 +3463,11 @@
             "closed_issues": 0
         },
         "2024-02-01": {
-            "opened_prs": 0,
+            "opened_prs": 1,
             "opened_issues": 1,
-            "closed_prs": 0,
+            "closed_prs": 2,
             "closed_issues": 1
         }
     },
-    "last_datetime": "2024-02-01T17:53:01Z"
+    "last_datetime": "2024-02-01T21:25:08Z"
 }
