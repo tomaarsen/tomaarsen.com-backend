@@ -9977,7 +9977,19 @@
             "opened_issues": 0,
             "closed_prs": 0,
             "closed_issues": 0
+        },
+        "2024-02-12": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2024-02-13": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 3,
+            "closed_issues": 1
         }
     },
-    "last_datetime": "2024-02-12T08:41:16Z"
+    "last_datetime": "2024-02-13T10:48:28Z"
 }
