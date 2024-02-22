@@ -10037,7 +10037,13 @@
             "opened_issues": 1,
             "closed_prs": 5,
             "closed_issues": 2
+        },
+        "2024-02-22": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 1,
+            "closed_issues": 2
         }
     },
-    "last_datetime": "2024-02-22T00:33:00Z"
+    "last_datetime": "2024-02-22T08:37:56Z"
 }
