@@ -10049,7 +10049,19 @@
             "opened_issues": 1,
             "closed_prs": 1,
             "closed_issues": 0
+        },
+        "2024-02-24": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2024-02-25": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
         }
     },
-    "last_datetime": "2024-02-24T17:06:14Z"
+    "last_datetime": "2024-02-25T11:30:09Z"
 }
