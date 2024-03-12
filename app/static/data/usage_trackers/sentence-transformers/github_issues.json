@@ -10151,7 +10151,13 @@
             "opened_issues": 2,
             "closed_prs": 0,
             "closed_issues": 0
+        },
+        "2024-03-12": {
+            "opened_prs": 1,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
         }
     },
-    "last_datetime": "2024-03-12T10:28:16Z"
+    "last_datetime": "2024-03-12T17:44:59Z"
 }
