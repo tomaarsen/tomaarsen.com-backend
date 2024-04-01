@@ -25,6 +25,9 @@ class HfHubTracker(Tracker):
         for model in self.api.list_models(
             filter=ModelFilter(library=self.package_name.replace("_", "-"))
         ):
+            if self.package_name == "sentence-transformers" and "setfit" in model.tags:
+                # Skip setfit models for sentence-transformers
+                continue
             # The MongoDB ObjectId is created when the Model on the Hub is created,
             # and you can extract the datetime from it
             mongo_db_object_id = model._id
