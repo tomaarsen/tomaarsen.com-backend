@@ -6829,9 +6829,13 @@
             "comments_without_me": 0
         },
         "2024-04-01": {
+            "comments": 6,
+            "comments_without_me": 6
+        },
+        "2024-04-02": {
             "comments": 5,
-            "comments_without_me": 5
+            "comments_without_me": 2
         }
     },
-    "last_datetime": "2024-04-01T08:00:49Z"
+    "last_datetime": "2024-04-02T11:23:52Z"
 }
