@@ -38,6 +38,10 @@ class HfHubTracker(Tracker):
                 # This approach lists 379 models there, but these are models from before this date,
                 # that are also included in the data.
                 continue
+            if self.package_name == "sentence-transformers" and model.author == "danfeg" and date in ("2024-03-22", "2024-03-23", "2024-03-24"):
+                # Skip "danfeg" sentence-transformer models, as he uploaded ~242 models in one day
+                # and it's a big outlier in our data.
+                continue
             data[date]["models"] += 1
 
             last_date_time = (
