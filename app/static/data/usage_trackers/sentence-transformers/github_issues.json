@@ -10391,7 +10391,19 @@
             "opened_issues": 0,
             "closed_prs": 1,
             "closed_issues": 0
+        },
+        "2024-04-21": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2024-04-22": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 1
         }
     },
-    "last_datetime": "2024-04-21T17:05:53Z"
+    "last_datetime": "2024-04-22T10:55:54Z"
 }
