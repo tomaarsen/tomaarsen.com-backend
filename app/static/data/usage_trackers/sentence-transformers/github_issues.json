@@ -10433,7 +10433,13 @@
             "opened_issues": 0,
             "closed_prs": 0,
             "closed_issues": 0
+        },
+        "2024-04-28": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 1
         }
     },
-    "last_datetime": "2024-04-28T01:38:13Z"
+    "last_datetime": "2024-04-28T03:22:26Z"
 }
