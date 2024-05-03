@@ -179,7 +179,8 @@ class GitHubCommentTracker(GitHubTracker):
         kwargs = {"per_page": 100, "state": "all"}
         if self.since:
             kwargs["since"] = self.since
-        return paged(self.api.issues.list_comments_for_repo, **kwargs)
+        for pages in paged(self.api.issues.list_comments_for_repo, **kwargs):
+            yield [page for page in pages if page["created_at"] != self.since]
 
     def element_handler(
         self, element: Dict[str, Any], data: Dict[str, Dict[str, int]]
