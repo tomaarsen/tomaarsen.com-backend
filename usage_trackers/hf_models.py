@@ -42,6 +42,10 @@ class HfHubTracker(Tracker):
                 # Skip "danfeg" sentence-transformer models, as he uploaded ~242 models in one day
                 # and it's a big outlier in our data.
                 continue
+            if self.package_name == "sentence-transformers" and model.author == "josejointriple" and date in ("2024-05-07"):
+                # Skip "josejointriple" sentence-transformer models, as he uploaded ~55 models in one day
+                # and it's a big outlier in our data.
+                continue
             data[date]["models"] += 1
 
             last_date_time = (
