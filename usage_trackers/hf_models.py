@@ -33,7 +33,7 @@ class HfHubTracker(Tracker):
             mongo_db_object_id = model._id
             created_at = datetime.fromtimestamp(int(mongo_db_object_id[:8], 16))
             date = created_at.strftime(DATE_FMT)
-            if date == "2022-03-03" and self.package_name == "sentence-transformers":
+            if date == "2022-03-02" and self.package_name == "sentence-transformers":
                 # Skip this particular date for sentence-transformers.
                 # This approach lists 379 models there, but these are models from before this date,
                 # that are also included in the data.
