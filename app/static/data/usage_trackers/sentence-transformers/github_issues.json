@@ -10523,7 +10523,13 @@
             "opened_issues": 3,
             "closed_prs": 0,
             "closed_issues": 0
+        },
+        "2024-05-13": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 1,
+            "closed_issues": 0
         }
     },
-    "last_datetime": "2024-05-12T14:26:02Z"
+    "last_datetime": "2024-05-13T08:56:33Z"
 }
