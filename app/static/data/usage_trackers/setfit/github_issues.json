@@ -4097,7 +4097,37 @@
             "opened_issues": 1,
             "closed_prs": 0,
             "closed_issues": 0
+        },
+        "2024-05-17": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2024-05-18": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2024-05-19": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2024-05-20": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2024-05-21": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
         }
     },
-    "last_datetime": "2024-05-18T07:36:23Z"
+    "last_datetime": "2024-05-21T08:32:57Z"
 }
