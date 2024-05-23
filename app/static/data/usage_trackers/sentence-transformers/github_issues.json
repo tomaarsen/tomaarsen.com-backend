@@ -10585,11 +10585,11 @@
             "closed_issues": 1
         },
         "2024-05-23": {
-            "opened_prs": 0,
-            "opened_issues": 1,
+            "opened_prs": 1,
+            "opened_issues": 2,
             "closed_prs": 0,
             "closed_issues": 1
         }
     },
-    "last_datetime": "2024-05-23T10:31:09Z"
+    "last_datetime": "2024-05-23T14:33:10Z"
 }
