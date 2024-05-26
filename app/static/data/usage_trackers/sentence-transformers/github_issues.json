@@ -10595,7 +10595,19 @@
             "opened_issues": 1,
             "closed_prs": 6,
             "closed_issues": 1
+        },
+        "2024-05-25": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2024-05-26": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 1,
+            "closed_issues": 0
         }
     },
-    "last_datetime": "2024-05-24T16:29:26Z"
+    "last_datetime": "2024-05-26T08:07:09Z"
 }
