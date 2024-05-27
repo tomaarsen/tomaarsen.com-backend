@@ -10609,11 +10609,11 @@
             "closed_issues": 0
         },
         "2024-05-27": {
-            "opened_prs": 2,
+            "opened_prs": 5,
             "opened_issues": 0,
-            "closed_prs": 0,
-            "closed_issues": 0
+            "closed_prs": 4,
+            "closed_issues": 1
         }
     },
-    "last_datetime": "2024-05-27T08:50:17Z"
+    "last_datetime": "2024-05-27T11:44:36Z"
 }
