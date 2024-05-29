@@ -46,6 +46,9 @@ class HfHubTracker(Tracker):
                 # Skip "josejointriple" sentence-transformer models, as he uploaded ~55 models in one day
                 # and it's a big outlier in our data.
                 continue
+            if self.package_name == "sentence-transformers" and model.author == "fine-tuned":
+                # Jina's "fine-tuned" models are spamming models
+                continue
             data[date]["models"] += 1
 
             last_date_time = (
