@@ -4175,7 +4175,31 @@
             "opened_issues": 2,
             "closed_prs": 0,
             "closed_issues": 0
+        },
+        "2024-05-30": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2024-05-31": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2024-06-01": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2024-06-02": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
         }
     },
-    "last_datetime": "2024-06-01T15:36:01Z"
+    "last_datetime": "2024-06-02T08:11:37Z"
 }
