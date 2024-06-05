@@ -10661,7 +10661,13 @@
             "opened_issues": 2,
             "closed_prs": 17,
             "closed_issues": 4
+        },
+        "2024-06-05": {
+            "opened_prs": 2,
+            "opened_issues": 0,
+            "closed_prs": 5,
+            "closed_issues": 0
         }
     },
-    "last_datetime": "2024-06-04T23:06:15Z"
+    "last_datetime": "2024-06-05T11:39:04Z"
 }
