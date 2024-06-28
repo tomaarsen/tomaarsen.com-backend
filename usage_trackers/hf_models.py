@@ -49,6 +49,10 @@ class HfHubTracker(Tracker):
             if self.package_name == "sentence-transformers" and model.author == "fine-tuned":
                 # Jina's "fine-tuned" models are spamming models
                 continue
+            if self.package_name == "sentence-transformers" and model.author == "ILKT" and model.modelId.startswith("ILKT/2024"):
+                # ILKT has uploaded a lot of models that are just e.g. "ILKT/2024-06-24_22-31-28_epoch_35",
+                # let's ignore those
+                continue
             data[date]["models"] += 1
 
             last_date_time = (
