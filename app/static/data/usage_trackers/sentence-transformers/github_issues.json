@@ -10652,10 +10652,154 @@
         },
         "2024-06-03": {
             "opened_prs": 0,
-            "opened_issues": 1,
+            "opened_issues": 2,
             "closed_prs": 7,
             "closed_issues": 1
+        },
+        "2024-06-04": {
+            "opened_prs": 7,
+            "opened_issues": 2,
+            "closed_prs": 17,
+            "closed_issues": 4
+        },
+        "2024-06-05": {
+            "opened_prs": 5,
+            "opened_issues": 0,
+            "closed_prs": 8,
+            "closed_issues": 0
+        },
+        "2024-06-06": {
+            "opened_prs": 2,
+            "opened_issues": 2,
+            "closed_prs": 1,
+            "closed_issues": 3
+        },
+        "2024-06-07": {
+            "opened_prs": 3,
+            "opened_issues": 3,
+            "closed_prs": 4,
+            "closed_issues": 1
+        },
+        "2024-06-08": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2024-06-09": {
+            "opened_prs": 5,
+            "opened_issues": 4,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2024-06-10": {
+            "opened_prs": 0,
+            "opened_issues": 2,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2024-06-11": {
+            "opened_prs": 2,
+            "opened_issues": 2,
+            "closed_prs": 0,
+            "closed_issues": 1
+        },
+        "2024-06-12": {
+            "opened_prs": 1,
+            "opened_issues": 3,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2024-06-13": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2024-06-14": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2024-06-15": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2024-06-16": {
+            "opened_prs": 0,
+            "opened_issues": 2,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2024-06-17": {
+            "opened_prs": 2,
+            "opened_issues": 5,
+            "closed_prs": 1,
+            "closed_issues": 1
+        },
+        "2024-06-18": {
+            "opened_prs": 3,
+            "opened_issues": 1,
+            "closed_prs": 10,
+            "closed_issues": 2
+        },
+        "2024-06-19": {
+            "opened_prs": 1,
+            "opened_issues": 2,
+            "closed_prs": 0,
+            "closed_issues": 2
+        },
+        "2024-06-20": {
+            "opened_prs": 1,
+            "opened_issues": 1,
+            "closed_prs": 3,
+            "closed_issues": 2
+        },
+        "2024-06-21": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2024-06-22": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2024-06-23": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2024-06-24": {
+            "opened_prs": 1,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2024-06-25": {
+            "opened_prs": 2,
+            "opened_issues": 5,
+            "closed_prs": 2,
+            "closed_issues": 2
+        },
+        "2024-06-26": {
+            "opened_prs": 2,
+            "opened_issues": 1,
+            "closed_prs": 1,
+            "closed_issues": 1
+        },
+        "2024-06-27": {
+            "opened_prs": 4,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
         }
     },
-    "last_datetime": "2024-06-03T11:07:46Z"
+    "last_datetime": "2024-06-28T08:50:35Z"
 }

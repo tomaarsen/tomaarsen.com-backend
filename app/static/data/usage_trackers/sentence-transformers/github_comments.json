@@ -6193,8 +6193,8 @@
             "comments_without_me": 1
         },
         "2023-10-25": {
-            "comments": 3,
-            "comments_without_me": 3
+            "comments": 6,
+            "comments_without_me": 6
         },
         "2023-10-26": {
             "comments": 0,
@@ -7081,9 +7081,109 @@
             "comments_without_me": 5
         },
         "2024-06-03": {
+            "comments": 29,
+            "comments_without_me": 13
+        },
+        "2024-06-04": {
+            "comments": 19,
+            "comments_without_me": 3
+        },
+        "2024-06-05": {
+            "comments": 6,
+            "comments_without_me": 2
+        },
+        "2024-06-06": {
+            "comments": 11,
+            "comments_without_me": 4
+        },
+        "2024-06-07": {
+            "comments": 8,
+            "comments_without_me": 3
+        },
+        "2024-06-08": {
+            "comments": 0,
+            "comments_without_me": 0
+        },
+        "2024-06-09": {
+            "comments": 3,
+            "comments_without_me": 3
+        },
+        "2024-06-10": {
+            "comments": 13,
+            "comments_without_me": 8
+        },
+        "2024-06-11": {
+            "comments": 3,
+            "comments_without_me": 3
+        },
+        "2024-06-12": {
+            "comments": 1,
+            "comments_without_me": 1
+        },
+        "2024-06-13": {
+            "comments": 4,
+            "comments_without_me": 4
+        },
+        "2024-06-14": {
+            "comments": 2,
+            "comments_without_me": 2
+        },
+        "2024-06-15": {
+            "comments": 1,
+            "comments_without_me": 1
+        },
+        "2024-06-16": {
+            "comments": 1,
+            "comments_without_me": 1
+        },
+        "2024-06-17": {
+            "comments": 30,
+            "comments_without_me": 12
+        },
+        "2024-06-18": {
+            "comments": 28,
+            "comments_without_me": 9
+        },
+        "2024-06-19": {
             "comments": 16,
-            "comments_without_me": 5
+            "comments_without_me": 10
+        },
+        "2024-06-20": {
+            "comments": 13,
+            "comments_without_me": 7
+        },
+        "2024-06-21": {
+            "comments": 3,
+            "comments_without_me": 3
+        },
+        "2024-06-22": {
+            "comments": 3,
+            "comments_without_me": 2
+        },
+        "2024-06-23": {
+            "comments": 2,
+            "comments_without_me": 1
+        },
+        "2024-06-24": {
+            "comments": 15,
+            "comments_without_me": 8
+        },
+        "2024-06-25": {
+            "comments": 17,
+            "comments_without_me": 9
+        },
+        "2024-06-26": {
+            "comments": 4,
+            "comments_without_me": 2
+        },
+        "2024-06-27": {
+            "comments": 1,
+            "comments_without_me": 1
+        },
+        "2024-06-28": {
+            "comments": 1,
+            "comments_without_me": 0
         }
     },
-    "last_datetime": "2024-06-03T11:07:45Z"
+    "last_datetime": "2024-06-28T08:50:33Z"
 }
