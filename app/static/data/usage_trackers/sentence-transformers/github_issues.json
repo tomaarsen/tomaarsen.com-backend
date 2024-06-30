@@ -10805,7 +10805,19 @@
             "opened_issues": 2,
             "closed_prs": 4,
             "closed_issues": 0
+        },
+        "2024-06-29": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2024-06-30": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
         }
     },
-    "last_datetime": "2024-06-29T19:39:24Z"
+    "last_datetime": "2024-06-30T07:24:18Z"
 }
