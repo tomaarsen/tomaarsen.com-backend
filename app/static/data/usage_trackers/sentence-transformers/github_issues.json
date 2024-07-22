@@ -10943,7 +10943,13 @@
             "opened_issues": 2,
             "closed_prs": 0,
             "closed_issues": 0
+        },
+        "2024-07-22": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 1
         }
     },
-    "last_datetime": "2024-07-21T13:52:20Z"
+    "last_datetime": "2024-07-22T11:03:43Z"
 }
