@@ -11165,7 +11165,13 @@
             "opened_issues": 2,
             "closed_prs": 0,
             "closed_issues": 0
+        },
+        "2024-08-28": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 1
         }
     },
-    "last_datetime": "2024-08-27T18:44:02Z"
+    "last_datetime": "2024-08-28T08:30:58Z"
 }
