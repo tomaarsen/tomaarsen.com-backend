@@ -11225,7 +11225,13 @@
             "opened_issues": 1,
             "closed_prs": 0,
             "closed_issues": 1
+        },
+        "2024-09-07": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
         }
     },
-    "last_datetime": "2024-09-07T03:50:09Z"
+    "last_datetime": "2024-09-07T14:51:25Z"
 }
