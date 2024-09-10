@@ -3171,7 +3171,35 @@
         "2024-09-03": {
             "comments": 1,
             "comments_without_me": 1
+        },
+        "2024-09-04": {
+            "comments": 0,
+            "comments_without_me": 0
+        },
+        "2024-09-05": {
+            "comments": 0,
+            "comments_without_me": 0
+        },
+        "2024-09-06": {
+            "comments": 0,
+            "comments_without_me": 0
+        },
+        "2024-09-07": {
+            "comments": 0,
+            "comments_without_me": 0
+        },
+        "2024-09-08": {
+            "comments": 0,
+            "comments_without_me": 0
+        },
+        "2024-09-09": {
+            "comments": 0,
+            "comments_without_me": 0
+        },
+        "2024-09-10": {
+            "comments": 2,
+            "comments_without_me": 2
         }
     },
-    "last_datetime": "2024-09-03T18:29:40Z"
+    "last_datetime": "2024-09-10T14:37:57Z"
 }
