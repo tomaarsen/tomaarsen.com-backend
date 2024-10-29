@@ -1,8 +1,10 @@
 from collections import defaultdict
 from datetime import datetime
+import json
 import os
 from typing import Any, Dict, Optional, Tuple
 from ghapi.all import GhApi, paged
+from fastcore.xtras import obj2dict
 from usage_trackers.base import DATE_TIME_FMT, Tracker
 from abc import abstractproperty
 
@@ -199,3 +201,20 @@ class GitHubCommentTracker(GitHubTracker):
     @property
     def data_keys(self) -> Tuple[str]:
         return ("comments", "comments_without_me")
+
+class GitHubGetRepos:
+    def __init__(self) -> None:
+        def limit_remaining_callback(rem, quota) -> None:
+            print(
+                f"Quota remaining for github_repos: {rem} of {quota}"
+            )
+        self.api = GhApi(token=os.environ.get("GITHUB_TOKEN"), limit_cb=limit_remaining_callback)
+    
+    def __call__(self) -> Any:
+        per_page = 100
+        username = "tomaarsen"
+        repos = [repo for repos in paged(self.api.repos.list_for_user, username=username, per_page=per_page) for repo in repos]
+        repos = [obj2dict(repo) for repo in repos]
+
+        with open("app/static/data/repos.json", "w", encoding="utf8") as f:
+            json.dump(repos, f, indent=4)

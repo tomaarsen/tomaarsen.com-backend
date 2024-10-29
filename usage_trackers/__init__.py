@@ -2,7 +2,7 @@
 from .base import Tracker
 from .pypi import PyPITracker
 from .hf_models import HfHubTracker
-from .github import GitHubCommentTracker, GitHubIssueTracker, GitHubStarTracker
+from .github import GitHubCommentTracker, GitHubIssueTracker, GitHubStarTracker, GitHubGetRepos
 
 PACKAGES = [
     ("span_marker", "tomaarsen", "SpanMarkerNER"),
@@ -20,4 +20,9 @@ TRACKERS = [
 def run_all():
     for tracker in TRACKERS:
         for package in PACKAGES:
-            tracker(*package)()
+            try:
+                tracker(*package)()
+            except Exception as e:
+                print(f"Error in {tracker} for {package}: {e}")
+
+    GitHubGetRepos()()

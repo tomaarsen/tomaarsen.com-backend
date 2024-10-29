@@ -112,3 +112,7 @@ def api_usage():
     assert metrics in ("hf_models", "github_comments", "github_issues", "github_stars", "pypi")
 
     return send_from_directory(Path("static") / "data" / "usage_trackers" / package, filename=f"{metrics}.json")
+
+@api.route("/repos", methods=["POST"])
+def api_repos():
+    return send_from_directory("./static/data/", filename="repos.json")
