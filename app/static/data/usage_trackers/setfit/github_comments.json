@@ -3407,7 +3407,31 @@
         "2024-11-01": {
             "comments": 1,
             "comments_without_me": 1
+        },
+        "2024-11-02": {
+            "comments": 0,
+            "comments_without_me": 0
+        },
+        "2024-11-03": {
+            "comments": 0,
+            "comments_without_me": 0
+        },
+        "2024-11-04": {
+            "comments": 0,
+            "comments_without_me": 0
+        },
+        "2024-11-05": {
+            "comments": 0,
+            "comments_without_me": 0
+        },
+        "2024-11-06": {
+            "comments": 0,
+            "comments_without_me": 0
+        },
+        "2024-11-07": {
+            "comments": 1,
+            "comments_without_me": 1
         }
     },
-    "last_datetime": "2024-11-01T19:48:42Z"
+    "last_datetime": "2024-11-07T11:20:18Z"
 }
