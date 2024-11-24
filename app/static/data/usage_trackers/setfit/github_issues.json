@@ -5219,7 +5219,25 @@
             "opened_issues": 0,
             "closed_prs": 0,
             "closed_issues": 0
+        },
+        "2024-11-20": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2024-11-21": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2024-11-22": {
+            "opened_prs": 0,
+            "opened_issues": 2,
+            "closed_prs": 0,
+            "closed_issues": 0
         }
     },
-    "last_datetime": "2024-11-21T16:48:46Z"
+    "last_datetime": "2024-11-24T17:22:18Z"
 }
