@@ -5237,7 +5237,43 @@
             "opened_issues": 2,
             "closed_prs": 0,
             "closed_issues": 0
+        },
+        "2024-11-23": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2024-11-24": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2024-11-25": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2024-11-26": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2024-11-27": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2024-11-28": {
+            "opened_prs": 1,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
         }
     },
-    "last_datetime": "2024-11-28T11:39:52Z"
+    "last_datetime": "2024-11-28T15:59:45Z"
 }
