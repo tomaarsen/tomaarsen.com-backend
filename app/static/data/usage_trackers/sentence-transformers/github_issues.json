@@ -11759,7 +11759,13 @@
             "opened_issues": 4,
             "closed_prs": 1,
             "closed_issues": 2
+        },
+        "2024-12-05": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
         }
     },
-    "last_datetime": "2024-12-05T11:04:33Z"
+    "last_datetime": "2024-12-05T14:55:17Z"
 }
