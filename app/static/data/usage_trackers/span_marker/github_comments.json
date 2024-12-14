@@ -2427,7 +2427,31 @@
         "2024-12-08": {
             "comments": 1,
             "comments_without_me": 1
+        },
+        "2024-12-09": {
+            "comments": 0,
+            "comments_without_me": 0
+        },
+        "2024-12-10": {
+            "comments": 0,
+            "comments_without_me": 0
+        },
+        "2024-12-11": {
+            "comments": 0,
+            "comments_without_me": 0
+        },
+        "2024-12-12": {
+            "comments": 0,
+            "comments_without_me": 0
+        },
+        "2024-12-13": {
+            "comments": 0,
+            "comments_without_me": 0
+        },
+        "2024-12-14": {
+            "comments": 4,
+            "comments_without_me": 2
         }
     },
-    "last_datetime": "2024-12-08T09:40:43Z"
+    "last_datetime": "2024-12-14T08:40:00Z"
 }
