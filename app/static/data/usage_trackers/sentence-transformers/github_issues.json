@@ -11879,7 +11879,25 @@
             "opened_issues": 1,
             "closed_prs": 0,
             "closed_issues": 1
+        },
+        "2024-12-25": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2024-12-26": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2024-12-27": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 1
         }
     },
-    "last_datetime": "2024-12-27T13:46:17Z"
+    "last_datetime": "2024-12-27T17:03:42Z"
 }
