@@ -7923,7 +7923,15 @@
         "2024-12-30": {
             "comments": 1,
             "comments_without_me": 1
+        },
+        "2024-12-31": {
+            "comments": 0,
+            "comments_without_me": 0
+        },
+        "2025-01-01": {
+            "comments": 1,
+            "comments_without_me": 1
         }
     },
-    "last_datetime": "2024-12-30T07:33:52Z"
+    "last_datetime": "2025-01-01T08:16:57Z"
 }
