@@ -3619,7 +3619,47 @@
         "2024-12-24": {
             "comments": 1,
             "comments_without_me": 1
+        },
+        "2024-12-25": {
+            "comments": 0,
+            "comments_without_me": 0
+        },
+        "2024-12-26": {
+            "comments": 0,
+            "comments_without_me": 0
+        },
+        "2024-12-27": {
+            "comments": 0,
+            "comments_without_me": 0
+        },
+        "2024-12-28": {
+            "comments": 0,
+            "comments_without_me": 0
+        },
+        "2024-12-29": {
+            "comments": 0,
+            "comments_without_me": 0
+        },
+        "2024-12-30": {
+            "comments": 0,
+            "comments_without_me": 0
+        },
+        "2024-12-31": {
+            "comments": 0,
+            "comments_without_me": 0
+        },
+        "2025-01-01": {
+            "comments": 0,
+            "comments_without_me": 0
+        },
+        "2025-01-02": {
+            "comments": 0,
+            "comments_without_me": 0
+        },
+        "2025-01-03": {
+            "comments": 1,
+            "comments_without_me": 1
         }
     },
-    "last_datetime": "2024-12-24T08:50:46Z"
+    "last_datetime": "2025-01-03T11:08:18Z"
 }
