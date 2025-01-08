@@ -3663,7 +3663,23 @@
         "2025-01-04": {
             "comments": 1,
             "comments_without_me": 1
+        },
+        "2025-01-05": {
+            "comments": 0,
+            "comments_without_me": 0
+        },
+        "2025-01-06": {
+            "comments": 0,
+            "comments_without_me": 0
+        },
+        "2025-01-07": {
+            "comments": 0,
+            "comments_without_me": 0
+        },
+        "2025-01-08": {
+            "comments": 1,
+            "comments_without_me": 1
         }
     },
-    "last_datetime": "2025-01-04T12:40:27Z"
+    "last_datetime": "2025-01-08T14:13:53Z"
 }
