@@ -11981,7 +11981,13 @@
             "opened_issues": 1,
             "closed_prs": 2,
             "closed_issues": 0
+        },
+        "2025-01-11": {
+            "opened_prs": 0,
+            "opened_issues": 2,
+            "closed_prs": 0,
+            "closed_issues": 0
         }
     },
-    "last_datetime": "2025-01-10T15:23:45Z"
+    "last_datetime": "2025-01-11T05:54:01Z"
 }
