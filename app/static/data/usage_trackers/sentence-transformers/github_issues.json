@@ -12059,7 +12059,19 @@
             "opened_issues": 4,
             "closed_prs": 4,
             "closed_issues": 1
+        },
+        "2025-01-24": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2025-01-25": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
         }
     },
-    "last_datetime": "2025-01-24T10:22:24Z"
+    "last_datetime": "2025-01-25T00:02:18Z"
 }
