@@ -12089,7 +12089,13 @@
             "opened_issues": 1,
             "closed_prs": 0,
             "closed_issues": 0
+        },
+        "2025-01-29": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 1,
+            "closed_issues": 1
         }
     },
-    "last_datetime": "2025-01-29T09:53:47Z"
+    "last_datetime": "2025-01-29T12:33:55Z"
 }
