@@ -12113,7 +12113,13 @@
             "opened_issues": 1,
             "closed_prs": 0,
             "closed_issues": 0
+        },
+        "2025-02-02": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
         }
     },
-    "last_datetime": "2025-02-01T10:25:31Z"
+    "last_datetime": "2025-02-02T18:48:42Z"
 }
