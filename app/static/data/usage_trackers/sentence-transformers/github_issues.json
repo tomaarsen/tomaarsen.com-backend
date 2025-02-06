@@ -12134,10 +12134,10 @@
         },
         "2025-02-05": {
             "opened_prs": 0,
-            "opened_issues": 0,
+            "opened_issues": 1,
             "closed_prs": 1,
-            "closed_issues": 0
+            "closed_issues": 1
         }
     },
-    "last_datetime": "2025-02-05T18:55:30Z"
+    "last_datetime": "2025-02-05T23:06:53Z"
 }
