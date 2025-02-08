@@ -5687,7 +5687,25 @@
             "opened_issues": 0,
             "closed_prs": 0,
             "closed_issues": 0
+        },
+        "2025-02-06": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2025-02-07": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2025-02-08": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
         }
     },
-    "last_datetime": "2025-02-05T13:58:55Z"
+    "last_datetime": "2025-02-08T15:54:41Z"
 }
