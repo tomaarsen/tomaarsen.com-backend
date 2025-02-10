@@ -12163,11 +12163,11 @@
             "closed_issues": 0
         },
         "2025-02-10": {
-            "opened_prs": 0,
+            "opened_prs": 1,
             "opened_issues": 1,
-            "closed_prs": 0,
-            "closed_issues": 0
+            "closed_prs": 1,
+            "closed_issues": 2
         }
     },
-    "last_datetime": "2025-02-10T12:16:25Z"
+    "last_datetime": "2025-02-10T17:12:37Z"
 }
