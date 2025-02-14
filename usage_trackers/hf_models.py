@@ -20,7 +20,7 @@ class HfHubTracker(Tracker):
     ) -> Union[
         Dict[str, Dict[str, Any]], Tuple[Dict[str, Dict[str, Any]], Dict[str, Any]]
     ]:
-        data = defaultdict(lambda: {"models": 0})
+        data = defaultdict(lambda: defaultdict(lambda: 0))
         last_date_time = None
         for model in self.api.list_models(
             filter=ModelFilter(library=self.package_name.replace("_", "-"))
@@ -33,31 +33,31 @@ class HfHubTracker(Tracker):
             mongo_db_object_id = model._id
             created_at = datetime.fromtimestamp(int(mongo_db_object_id[:8], 16))
             date = created_at.strftime(DATE_FMT)
-            if date == "2022-03-02" and self.package_name == "sentence-transformers":
+            if date in ("2022-03-02", "2022-03-03") and self.package_name == "sentence-transformers":
                 # Skip this particular date for sentence-transformers.
                 # This approach lists 379 models there, but these are models from before this date,
                 # that are also included in the data.
                 continue
-            if self.package_name == "sentence-transformers" and model.author == "danfeg" and date in ("2024-03-22", "2024-03-23", "2024-03-24"):
-                # Skip "danfeg" sentence-transformer models, as he uploaded ~242 models in one day
-                # and it's a big outlier in our data.
-                continue
-            if self.package_name == "sentence-transformers" and model.author == "josejointriple" and date in ("2024-05-07"):
-                # Skip "josejointriple" sentence-transformer models, as he uploaded ~55 models in one day
-                # and it's a big outlier in our data.
-                continue
-            if self.package_name == "sentence-transformers" and model.author == "fine-tuned":
-                # Jina's "fine-tuned" models are spamming models
-                continue
-            if self.package_name == "sentence-transformers" and model.author == "ILKT" and model.modelId.startswith("ILKT/2024"):
-                # ILKT has uploaded a lot of models that are just e.g. "ILKT/2024-06-24_22-31-28_epoch_35",
-                # let's ignore those
-                continue
-            data[date]["models"] += 1
+            if self.package_name == "sentence-transformers":
+                if model.author == "tomaarsen":
+                    # Skip myself to prevent bias
+                    continue
+                if model.author == "fine-tuned":
+                    # Jina's "fine-tuned" models are spamming models
+                    continue
+                if model.author == "ILKT" and model.modelId.startswith("ILKT/2024"):
+                    # ILKT has uploaded a lot of models that are just e.g. "ILKT/2024-06-24_22-31-28_epoch_35",
+                    # let's ignore those
+                    continue
+            data[date][model.author] += 1
 
             last_date_time = (
                 created_at
                 if last_date_time is None
                 else max(last_date_time, created_at)
             )
+        data = {
+            date: {"models": sum(min(models, 3) for models in models_authors.values())}
+            for date, models_authors in data.items()
+        }
         return data, {"last_datetime": last_date_time.strftime(DATE_TIME_FMT)}
