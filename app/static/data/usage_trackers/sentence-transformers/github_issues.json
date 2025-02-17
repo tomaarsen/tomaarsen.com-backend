@@ -12191,7 +12191,25 @@
             "opened_issues": 2,
             "closed_prs": 3,
             "closed_issues": 2
+        },
+        "2025-02-15": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2025-02-16": {
+            "opened_prs": 0,
+            "opened_issues": 0,
+            "closed_prs": 0,
+            "closed_issues": 0
+        },
+        "2025-02-17": {
+            "opened_prs": 0,
+            "opened_issues": 1,
+            "closed_prs": 0,
+            "closed_issues": 0
         }
     },
-    "last_datetime": "2025-02-17T13:08:26Z"
+    "last_datetime": "2025-02-17T17:50:18Z"
 }
