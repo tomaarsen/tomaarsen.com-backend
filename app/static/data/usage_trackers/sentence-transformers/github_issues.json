@@ -12459,9 +12459,9 @@
         "2025-03-31": {
             "opened_prs": 0,
             "opened_issues": 0,
-            "closed_prs": 0,
-            "closed_issues": 1
+            "closed_prs": 1,
+            "closed_issues": 2
         }
     },
-    "last_datetime": "2025-03-31T04:33:21Z"
+    "last_datetime": "2025-03-31T14:09:20Z"
 }
