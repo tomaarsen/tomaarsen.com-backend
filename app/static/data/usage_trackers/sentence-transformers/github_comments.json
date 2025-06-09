@@ -8549,8 +8549,8 @@
             "comments_without_me": 0
         },
         "2025-06-05": {
-            "comments": 9,
-            "comments_without_me": 7
+            "comments": 10,
+            "comments_without_me": 8
         },
         "2025-06-06": {
             "comments": 1,
@@ -8563,7 +8563,11 @@
         "2025-06-08": {
             "comments": 1,
             "comments_without_me": 1
+        },
+        "2025-06-09": {
+            "comments": 3,
+            "comments_without_me": 3
         }
     },
-    "last_datetime": "2025-06-08T11:59:38Z"
+    "last_datetime": "2025-06-09T01:36:42Z"
 }
