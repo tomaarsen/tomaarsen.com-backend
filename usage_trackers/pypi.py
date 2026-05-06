@@ -18,8 +18,8 @@ class PyPITracker(Tracker):
     def fetch(self) -> Dict[str, Dict[Literal["downloads"], int]]:
         stats_str = pypistats.overall(self.package_name, mirrors=True, total=True, format="json")
         stats = json.loads(stats_str)["data"]
-        # Skip all dates before "2026-03-31"
-        stats = [day for day in stats if date.fromisoformat(day["date"]) >= date(2026, 3, 31)]
+        # Skip all dates before "2026-05-01"
+        stats = [day for day in stats if date.fromisoformat(day["date"]) >= date(2026, 5, 1)]
         # YYYY-MM-DD
         return {
             day["date"]: {"downloads": day["downloads"]}
