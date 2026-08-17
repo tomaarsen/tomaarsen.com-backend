@@ -5975,7 +5975,55 @@
         "2026-08-05": {
             "comments": 1,
             "comments_without_me": 1
+        },
+        "2026-08-06": {
+            "comments": 0,
+            "comments_without_me": 0
+        },
+        "2026-08-07": {
+            "comments": 0,
+            "comments_without_me": 0
+        },
+        "2026-08-08": {
+            "comments": 0,
+            "comments_without_me": 0
+        },
+        "2026-08-09": {
+            "comments": 0,
+            "comments_without_me": 0
+        },
+        "2026-08-10": {
+            "comments": 0,
+            "comments_without_me": 0
+        },
+        "2026-08-11": {
+            "comments": 0,
+            "comments_without_me": 0
+        },
+        "2026-08-12": {
+            "comments": 0,
+            "comments_without_me": 0
+        },
+        "2026-08-13": {
+            "comments": 0,
+            "comments_without_me": 0
+        },
+        "2026-08-14": {
+            "comments": 0,
+            "comments_without_me": 0
+        },
+        "2026-08-15": {
+            "comments": 0,
+            "comments_without_me": 0
+        },
+        "2026-08-16": {
+            "comments": 0,
+            "comments_without_me": 0
+        },
+        "2026-08-17": {
+            "comments": 1,
+            "comments_without_me": 1
         }
     },
-    "last_datetime": "2026-08-05T08:54:23Z"
+    "last_datetime": "2026-08-17T09:13:56Z"
 }
