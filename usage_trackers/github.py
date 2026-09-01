@@ -80,7 +80,7 @@ class GitHubStarTracker(GitHubTracker):
     def __init__(self, package_name: str, owner: str, repo: str) -> None:
         super().__init__(package_name, owner, repo)
         # This header causes the "starred_at" value to be provided
-        self.api.headers = {"Accept": "application/vnd.github.star+json"}
+        self.api.headers["Accept"] = "application/vnd.github.star+json"
 
     def fetch(self) -> Dict[str, Dict[str, int]]:
         # Read the original metadata
