@@ -11,6 +11,16 @@ import json
 from usage_trackers.base import Tracker
 
 class PyPITracker(Tracker):
+    def merge(self, fetched_data, metadata):
+        old_data, old_metadata = self.read()
+        data = {**old_data}
+        for day, stats in fetched_data.items():
+            data[day] = {**old_data.get(day, {}), **stats}
+        return {**old_metadata, **(metadata or {}), "data": data}
+
+    def add_empty_days(self, data):
+        return data
+
     @property
     def data_title(self) -> str:
         return "pypi"

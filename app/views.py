@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 from app.db import get_known_corrects, get_random_word_lemma
 from flask import (
-    Blueprint, flash, g, redirect, render_template, request, session, url_for, jsonify, send_from_directory
+    Blueprint, current_app, flash, g, redirect, render_template, request, session, url_for, jsonify, send_from_directory
 )
 
 from .models import MODULE_NAMES, get_performance, get_random_conversion, get_supported_modules
@@ -103,6 +103,15 @@ def api_usage_list():
         usage = json.load(f)
     return jsonify(usage)
 
+def use_adjusted_downloads(payload):
+    payload = {**payload, "data": {day: dict(stats) for day, stats in payload["data"].items()}}
+    for stats in payload["data"].values():
+        if "adjusted_downloads" in stats:
+            stats["downloads"] = stats.pop("adjusted_downloads")
+    if "adjusted_start_downloads" in payload:
+        payload["startDownloads"] = payload.pop("adjusted_start_downloads")
+    return payload
+
 @api.route("/usage", methods=["POST"])
 def api_usage():
     # Get request parameters
@@ -111,7 +120,11 @@ def api_usage():
     metrics = request.json["metrics"]
     assert metrics in ("hf_models", "github_comments", "github_issues", "github_stars", "pypi")
 
-    return send_from_directory(Path("static") / "data" / "usage_trackers" / package, filename=f"{metrics}.json")
+    directory = Path("static") / "data" / "usage_trackers" / package
+    if metrics == "pypi":
+        with open(Path(current_app.root_path) / directory / "pypi.json", encoding="utf8") as f:
+            return jsonify(use_adjusted_downloads(json.load(f)))
+    return send_from_directory(directory, filename=f"{metrics}.json")
 
 @api.route("/repos", methods=["POST"])
 def api_repos():
