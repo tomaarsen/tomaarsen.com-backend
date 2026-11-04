@@ -1,5 +1,25 @@
 {
     "startDownloads": 33131079,
+    "adjusted_start_downloads": 20209958,
+    "pypi_adjustments": {
+        "ratio": 0.61,
+        "through": "2026-08-24",
+        "gap_method": "mean of matching weekdays within two weeks, then apply ratio",
+        "gap_neighbors": {
+            "2024-10-25": [
+                "2024-10-11",
+                "2024-10-18",
+                "2024-11-01",
+                "2024-11-08"
+            ],
+            "2025-02-11": [
+                "2025-01-28",
+                "2025-02-04",
+                "2025-02-18",
+                "2025-02-25"
+            ]
+        }
+    },
     "data": {
         "2023-03-20": {
             "downloads": 69424,
@@ -5226,26 +5246,6 @@
         },
         "2026-11-02": {
             "downloads": 807852
-        }
-    },
-    "adjusted_start_downloads": 20209958,
-    "pypi_adjustments": {
-        "ratio": 0.61,
-        "through": "2026-08-24",
-        "gap_method": "mean of matching weekdays within two weeks, then apply ratio",
-        "gap_neighbors": {
-            "2024-10-25": [
-                "2024-10-11",
-                "2024-10-18",
-                "2024-11-01",
-                "2024-11-08"
-            ],
-            "2025-02-11": [
-                "2025-01-28",
-                "2025-02-04",
-                "2025-02-18",
-                "2025-02-25"
-            ]
         }
     }
 }
